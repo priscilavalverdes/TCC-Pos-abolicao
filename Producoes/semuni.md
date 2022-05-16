@@ -1,7 +1,15 @@
-# PÓS-ABOLIÇÃO: SENTIDOS, USOS E PRODUÇÕES ACADÊMICAS (2004-2019)
+---
+title: PÓS-ABOLIÇÃO - SENTIDOS, USOS E PRODUÇÕES ACADÊMICAS (2004-2019)
+subtitle: Resumo - SEMUNI 2022 (IHLM/UNILAB)
+date: 16 de Maio de 2022
+---
+Priscila Valverde [^1]
 
-Eric Brasil 
-Priscila Valverde
+Eric Brasil [^2]
+
+[^1]: Bacharel em Humanidades pela Universidade da Integração Internacional da Lusofonia Afro-brasileira (UNILAB) e Graduanda em História pela mesma instituição. Bolsista de Apoio Técnico do Laboratório de Humanidades Digitais da Universidade Federal da Bahia. 
+
+[^2]: Professor dos cursos de História e Humanidades do IHLM/UNILAB. Pesquisador do LABHD-UFBA e editor do Programming Historian. Contato: [ericbrasiln@protonmail.com](mailto:ericbrasiln@protonmail.com)
 
 **Resumo**: O presente trabalho é resultado do Projeto de Pesquisa “Pós-abolição: sentidos, usos e produções acadêmicas(2004-2019)”, sob a orientação do professor Eric Brasil Nepomuceno, no âmbito do grupo de pesquisa História das Afro-américas e Afro-americanos, com bolsa financiada pela Unilab/CNPQ. A pesquisa buscou caracterizar as produções acadêmicas no Brasil sobre o Pós-Abolição entre os anos de 2004 e 2019 nos Anais do evento de maior relevância de História do País, os Simpósios Nacionais de História da Associação Nacional de História-ANPUH, através de análise das principais temáticas, recortes cronológicos e espaciais, instituições de ensino, perfil dos autores e da utilização conceitual do termo “pós-abolição”, desde a publicação do artigo “O Pós-Abolição como problema histórico: balanços e perspectivas” de Ana Lugão Rios e Hebe Maria Matos em 2004, até o 30º Simpósio Nacional de História da Anpuh em 2019, ano em que o Grupo de Trabalho Emancipações e Pós-Abolição teve o maior número de inscritos referente a soma de quatro simpósios vinculados a ele. Para isso, utilizamos uma metodologia híbrida que envolve utilização de técnicas próprias da Ciência Computacional bem como técnicas da prática de pesquisa historiográfica, convergindo com as práticas do campo da História Digital. Construímos um *dataset* (base de dados) digital com as informações coletadas por *scripts* desenvolvidos em linguagem Phyton pelo professor Eric Brasil em parceria com o Laboratório de Humanidades Digitais da UFBA – LABHDUFBA, que coletou os dados dos Anais de todos os Simpósios da ANPUH, resultando em um total de 15.157 arquivos em formato PDF. Esses dados foram tratados e filtrados através de análise automatizada gerando um corpus que atendesse os objetivos da pesquisa, totalizando 6.434 PDFs. Tanto a filtragem quanto a análise qualitativa que se seguiu a esta etapa foram feitas utilizando o *software* **ATLAS.ti 7**, um programa de apoio à análise qualitativa de dados digitais (CAQDAs). Temos como resultado, um banco de dados sobre os papers e artigos devidamente codificados e acessíveis on-line com gráficos, para consulta em uma página do GITHUB, a [biblioteca pública de acesso gratuito “História Digital” no Zotero](https://www.zotero.org/groups/2216280/histria_digital/library), com mais de 300 referências bibliográficas sobre Humanidades Digitais, desenvolvida em parceria com Ana Carolina Veloso, bolsista do projeto “História Digital: acervo e ferramentas digitais para pesquisa e ensino”. Contamos ainda, com uma breve análise teórica acerca do uso do termo pós-abolição.
 
@@ -11,9 +19,9 @@ No projeto, utilizamos uma metodologia híbrida, com técnicas próprias da ciê
 
 No primeiro momento do projeto, fizemos o levantamento de referências bibliográficas no sentido de construir a biblioteca pública História Digital, acessível no link: .O [*Zotero*](https://www.zotero.org/) é um software de código livre e aberto, gratuito, que busca, gerencia e armazena referencias e citações bibliográficas, criando uma biblioteca de referências onde seus itens podem ser organizados em coleções (ANDRETTA; RAMOS; SILVA.2011). 
 
-Na etapa que se seguiu, fizemos formação para compreensão básica sobre a linguagem de programação Python [^1] no sentido de entender o processo de coleta de dados resultante da raspagem feita pelo script desenvolvido pelo professor Eric Brasil em parceria com o LABHDUFBA, que resultou na base de dados com o conjunto de pdfs sobre os quais fizemos a análise qualitativa para entender como o termo pós-abolição tem sido tratado nos Anais da ANPUH.
+Na etapa que se seguiu, fizemos formação para compreensão básica sobre a linguagem de programação Python [^3] no sentido de entender o processo de coleta de dados resultante da raspagem feita pelo script desenvolvido pelo professor Eric Brasil em parceria com o LABHDUFBA, que resultou na base de dados com o conjunto de pdfs sobre os quais fizemos a análise qualitativa para entender como o termo pós-abolição tem sido tratado nos Anais da ANPUH.
 
-[^1]: Uma linguagem de programação orientada a objetos com uma curva de aprendizagem menor, que possibilita agilidade no desenvolvimento, além da facilidade de integrar diferentes sistemas com maior eficiência. Para saber acesse a [página do Python](https://www.python.org/).
+[^3]: Uma linguagem de programação orientada a objetos com uma curva de aprendizagem menor, que possibilita agilidade no desenvolvimento, além da facilidade de integrar diferentes sistemas com maior eficiência. Para saber acesse a [página do Python](https://www.python.org/).
 
 Podemos resumir o processo de coleta dos dados da seguinte maneira: foram desenvolvidos dois scripts de raspagem de dados referentes aos trabalhos completos publicados nos Anais da Anpuh. O primeiro deles, `script-anais-anpuh.py` realizou a raspagem dos trabalhos em PDF de todos os Simpósios Nacionais da Anpuh entre 1963 até 2017, atualmente disponíveis na página oficial da associação. O segundo script, `script-anais-anpuh-2019.py`, foi desenvolvido como desdobramento do primeiro para raspar os trabalhos publicados nos Anais do 30º Simpósio Nacional de História, realizado no ano de 2019 em Recife, PE. Isso foi necessário pois esses Anais ainda não estão disponíveis no repositório do site da Anpuh, constando apenas no site específico do evento de 2019.
 
