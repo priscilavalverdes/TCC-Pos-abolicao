@@ -107,52 +107,54 @@ Neste sentido, sabemos que as publicações dos papers da ANPUH passaram por um 
 
 ## Parte II- Desenvolvimento da pesquisa
 
-Para desenvolvimento da pesquisa, utilizamos uma metodologia híbrida, com técnicas próprias da ciência computacional e práticas de pesquisa da historiografia. Para isso, fizemos formação para utilizar ferramentas específicas como o Zotero e Atlas.ti 7, e de compreensões básicas sobre a linguagem de programação Python. Tivemos momentos de leitura da bibliografia do projeto e reuniões para discussão da mesma no intuito de construir um arcabouço teórico para nortear a análise qualitativa dos dados.
+Para desenvolvimento da pesquisa, utilizamos uma metodologia híbrida, com técnicas próprias da ciência computacional e práticas de pesquisa historiográfica. Para isso, fizemos formação para utilizar ferramentas digitais específicas como o Zotero e Atlas.ti 7, e de compreensões básicas sobre a linguagem de programação Python. Tivemos momentos de leitura da bibliografia do projeto e reuniões para discussão da mesma no intuito de construir um arcabouço teórico para nortear a análise qualitativa dos dados.
 
-Sobre a formação teórica, após fazermos o levantamento bibliográfico das temáticas mais pertinentes, dado o caráter do projeto de buscar caracterizar as produções historiográficas em revistas digitais, para o eixo discursivo sobre Humanidades Digitais, priorizamos leituras que tratassem de possíveis conceituações deste campo, de relatar de que maneira as ferramentas digitais podem ser utilizadas na pesquisa historiográfica, dos impactos da tecnologia no ofício do historiador, e da importância de acompanhar os avanços tecnológicos para a construção de uma história mais equânime. Dessa forma, incidimos em trabalhos que estavam mais voltados para as discussões no âmbito da Sociologia e da História.
+Sobre a formação teórica, após levantamento bibliográfico das temáticas mais pertinentes, dado o caráter do projeto de buscar caracterizar produções historiográficas em meios digitais, sobre Humanidades Digitais, priorizamos leituras que tratassem de possíveis conceituações deste campo, que avaliassem como ferramentas digitais podem ser utilizadas na pesquisa historiográfica, os impactos da tecnologia no ofício do historiador, e da importância de acompanhar e criticar os avanços tecnológicos para a construção do conhecimento histórico. Dessa forma, incidimos em trabalhos que estavam mais voltados para as discussões no âmbito da Sociologia e da História.[^8]
 
-Para as leituras sobre o pós-abolição, partimos da abordagem feita por Ana Lugão Rios e Hebe Mattos no artigo “O pós-abolição como um problema histórico: balanços e perspectivas ”, de que existe uma grande diversidade de elementos a serem explorados para compor o estudo do pós-abolição, e que estes elementos ainda estão a emergir, impelindo-o a tornar-se um campo autônomo. Assim, preferimos destacar trabalhos que pudessem nortear estes elementos, sobretudo, pela necessidade na definição de parâmetros a serem utilizados na análise das publicações no software de apoio a análise qualitativa de dados. 
+[^8]: vc vai ter que citar essas leituras
+
+Para as leituras sobre o pós-abolição, partimos da abordagem feita por Ana Lugão Rios e Hebe Mattos (2004) no artigo “O pós-abolição como um problema histórico: balanços e perspectivas ”, de que existe uma grande diversidade de elementos a serem explorados para compor os estudos do pós-abolição no Brasil, e que estes elementos ainda estão emergindo na historiogradia, possibilitando sua consolidação como um campo autônomo. Assim, preferimos destacar trabalhos que pudessem nortear estes elementos, sobretudo, pela necessidade na definição de parâmetros a serem utilizados na análise das publicações no software de apoio a análise qualitativa de dados. 
 
 As leituras estiveram presentes em todas as etapas da pesquisa pois, além da necessidade de fundamentação teórica própria do formato da monografia, foi necessário como previsto pelas Humanidades Digitais, a adequação das ferramentas para a finalidade específica da pesquisa.
 
-Em seguida, fizemos capacitações para uso do gerenciador bibliográfico Zotero, o qual utilizamos para criar uma biblioteca pública digital de referências bibliográficas, intitulada “História Digital” e para fazer o levantamento bibliográfico. A utilização do zotero nos ajudou na organização da bibliografia tanto quanto na escrita desta monografia, devido as diversas funcionalidades que possui, como por exemplo, a automatização da inserção das citações escritas no corpo do texto a partir da bibliografia predefinida nele em diretório criado especificamente para o tcc.
+Em seguida, fizemos capacitações para uso do gerenciador bibliográfico Zotero, o qual utilizamos para criar uma biblioteca pública digital de referências bibliográficas, intitulada “História Digital” e para fazer o levantamento bibliográfico. A utilização do Zotero nos ajudou na organização da bibliografia tanto quanto na escrita desta monografia, devido as diversas funcionalidades que possui, como por exemplo, a automatização da inserção das citações escritas no corpo do texto a partir da bibliografia predefinida nele em diretório criado especificamente para o TCC.[^9]
 
-Dentre essas capacitações fizemos uma formação online da UDESC sobre Zotero, alguns workshops ministrados pelo professor Eric, e tivemos acesso a algumas aulas ministradas pelo mesmo na disciplina de Ferramentas Digitais no PLEX da Unilab. Após as capacitações, criamos um grupo público no Zotero (o qual tornou-se a página da biblioteca) com um banco de dados constituído de teses, capítulos de livros, artigos, conferências, livros, verbetes de enciclopédia e página da web; organizamos as referências e todas as informações constantes nos metadados seguindo os padrões da ABNT; criamos etiquetas para cada artigo e pastas temáticas de maneira a otimizar a busca pelo público. 
+[^9]: Para uma utilização prática e avaliação dos impactos do Zotero na pesquisa histórica, ver LUCCHESI, Anita. *Digital history e Storiografia digitale*: estudo comparado sobre a escrita da história no tempo presente (2001-2011). Mestrado, UFRJ, Rio de Janeiro, 2014. pp. 62-64
 
-O Zotero é um software de código livre e aberto, gratuito, que busca, gerencia e armazena referencias e citações, criando uma biblioteca de referências onde seus itens podem ser organizados em coleções (ANDRETTA; RAMOS; SILVA.2011).  O programa possibilita gerar notas/fichamentos, tecer conexões/links entre as referências, atribuição de etiquetas/marcadores, entre outras funções, essa catalogação fica a critério do usuário. O Zotero permite ao usuário administrar sua biblioteca em mais de um dispositivo através da sincronização do programa a conta online no servidor de Zotero, isso possibilita acessar as informações armazenadas no computador, essa sincronização possibilita a criação de grupos e biblioteca compartilhada onde as edições feitas por um membro é acompanhado pelos demais dinamizando as construções.  Outra função do software é sua integralização ao editor de texto, onde o software auxilia a gerar a referências de citações no estilo selecionado pelo usuário, gera também a bibliografia a partir de todas as citações presentes no texto. 
+Dentre essas capacitações, fizemos uma formação online da UDESC sobre Zotero, alguns workshops ministrados pelo professor Eric, e tivemos acesso a algumas aulas ministradas pelo mesmo na disciplina de Ferramentas Digitais e a pesquisa em humanidades no IHL, Unilab. Após as capacitações, criamos um grupo público no Zotero (o qual tornou-se a página da biblioteca) com um banco de dados constituído de teses, capítulos de livros, artigos, conferências, livros, verbetes de enciclopédia e página da web; organizamos as referências e todas as informações constantes nos metadados seguindo os padrões da ABNT; criamos etiquetas para cada artigo e pastas temáticas de maneira a otimizar a busca pelo público. 
+
+O Zotero é um software de código livre e aberto, gratuito, que busca, gerencia e armazena referencias e citações, criando uma biblioteca de referências onde seus itens podem ser organizados em coleções (ANDRETTA; RAMOS; SILVA.2011).  O programa possibilita gerar notas/fichamentos, tecer conexões/links entre as referências, atribuição de etiquetas/marcadores, entre outras funções, essa catalogação fica a critério do usuário. O Zotero permite ao usuário administrar sua biblioteca em mais de um dispositivo através da sincronização do programa à conta online no servidor de Zotero, o que possibilita acessar as informações armazenadas no computador, a criação de grupos e bibliotecas compartilhadas onde as edições feitas por um membro são acompanhadas pelos demais, dinamizando as construções.  Outra função do software é sua integração aos editores de texto, onde o software auxilia a gerar a referências de citações no estilo selecionado pelo usuário, gera também a bibliografia a partir de todas as citações presentes no texto. 
 
 A criação da biblioteca pública de referências no Zotero intitulada História Digital foi desenvolvida em conjunto com a discente Ana Carolina de Oliveira Veloso do curso de História, bolsista Pibic/Fapesb projeto “História Digital:  acervo e ferramentas digitais para pesquisa e ensino”, sob a orientação do professor Eric Brasil no âmbito do curso de Licenciatura em História, da UNILAB-campus Malês. 
 
-Para a criação da biblioteca foi necessário construir coleções, que são um conjunto de referências agrupadas por temáticas, definidas nas etiquetas, que são marcadores que sintetizam palavras-chaves ou conceitos. No presente momento a biblioteca conta com mais de 226 itens, dividida em 13 coleções:
+Para a criação da biblioteca foi necessário construir coleções, que são um conjunto de referências agrupadas por temáticas, definidas nas etiquetas, que são marcadores que sintetizam palavras-chaves ou conceitos. No presente momento a biblioteca conta com mais de 300 itens, organizados em 13 coleções (Tabela 1).
 
-- Acervos e Arquivos Digitais - 28 itens
-- Definições de tecnologias - 4 itens 
-- Ensino e Humanidades Digitais - 4 itens 
-- Ferramentas Digitais – 40 itens 
-- Hemerotecas e Bibliotecas Digitais – 17 itens 
-- Heurística Digitais - 2 itens 
-- História Publica Digital - 3 itens 
-- Humanidades Digitais – 29 itens 
-- Memoria – 4 itens 
-- Metodologias Digitais – 42 itens 
-- NLP e NER – 22 itens  
-- Reflexões Críticas: decolonialidade e interseccionalidade – 22 itens 
-- Teoria e Epistemologia da História – 31 itens 
+|Nome da coleção                                          |Quantidade de Itens|
+|---------------------------------------------------------|-------------------|
+|Acervos e Arquivos Digitais                              |28                 |
+|Definições de tecnologias                                |4                  | 
+|Ensino e Humanidades Digitais                            |4                  | 
+|Ferramentas Digitais                                     |40                 | 
+|Hemerotecas e Bibliotecas Digitais                       |17                 | 
+|Heurística Digitais                                      |2                  | 
+|História Publica Digital                                 |3                  | 
+|Humanidades Digitais                                     |29                 | 
+|Memoria                                                  |4                  | 
+|Metodologias Digitais                                    |42                 | 
+|NLP e NER                                                |22                 |  
+|Reflexões Críticas: decolonialidade e interseccionalidade|22                 | 
+|Teoria e Epistemologia da História                       |31                 | 
 
-Essas coleções foram definidas pensando nos principais recortes onde se aborda a temática da História Digital e temas interligados. Como a finalidade da biblioteca não se encerrando em sua criação, a mesma continua em constante atualização, podendo ter referências adicionadas por quem tiver interesse em colaborar com o projeto, mediante avaliação do administrador.  Atualmente, a biblioteca conta com quatorze membros, podendo ser acessada neste link https://www.zotero.org/groups/2216280/histria_digital
+Essas coleções foram definidas pensando nos principais recortes onde se aborda a temática da História Digital e temas interligados. A biblioteca continua em constante atualização, podendo ter referências adicionadas por quem tiver interesse em colaborar com o projeto, mediante avaliação do administrador.  Atualmente, a biblioteca conta com quatorze membros, podendo ser acessada neste [link](https://www.zotero.org/groups/2216280/histria_digital).
 
-Na etapa seguinte, passamos a trabalhar diretamente com a base de dados criada a partir da raspagem dos Anais dos Simpósios Nacionais de História da Anpuh. Diante da necessidade de compreender o funcionamento do script para raspagem dos dados nas plataformas, o qual foi criado pelo professor Eric em parceria com o Laboratório de Humanidades Digitais da UFBA, fizemos workshops de linguagem de programação orientada a objeto, com a linguagem Python. 
+Na etapa seguinte, passamos a trabalhar diretamente com a base de dados criada a partir da raspagem dos Anais dos Simpósios Nacionais de História da Anpuh. Diante da necessidade de compreender o funcionamento do *script* para raspagem dos dados nas plataformas, o qual foi criado pelo professor Eric em parceria com o Laboratório de Humanidades Digitais da UFBA, fizemos workshops de linguagem de programação orientada a objeto, com a linguagem Python. 
 
-Dois scripts de raspagem de dados referentes aos trabalhos completos publicados nos anais da Anpuh foram criados.
-O primeiro deles, script-anais-anpuh.py realiza a raspagem dos trabalhos em pdf de todos os Simpósios Nacionais da Anpuh entre 1963 até 2017, disponíveis atualmente na site da associação, que podem ser acessados aqui: https://anpuh.org.br/index.php/documentos/anais.
+Dois *scripts* de raspagem de dados referentes aos trabalhos completos publicados nos anais da Anpuh foram criados. Ambos escritos em Python 3.8 [^11] e disponíveis no repositório Anais-Anpuh no GitHub do Laboratório de Humanidades Digitais da UFBA e podem ser acessados através desse [link](https://github.com/LABHDUFBA/Anais-Anpuh).
 
-O segundo script, script-anais-anpuh-2019.py, foi desenvolvido como desdobramento do primeiro para raspar os trabalhos publicados nos anais do 30º Simpósio Nacional de História, realizado no ano de 2019 em Recife, PE. Isso foi necessário pois esses anais ainda não estão disponíveis no repositório do site da Anpuh, e sim constam no site específico do evento de 2019.
 
-Ambos os scripts estão disponíveis no repositório Anais-Anpuh no GitHub do Laboratório de Humanidades Digitais da UFBA e podem ser acessados através desse link https://g.ithub.com/LABHDUFBA/Anais-Anpuh ou através de qr-code. Verificar figura 1.
+[^11]: Python é uma linguagem de programação com uma curva de aprendizagem menor, que te permite trabalhar rapidamente, e integrar diferentes sistemas com maior eficiência. Para saber mais, acesse https://www.python.org/downloads/
 
-A lógica do script se deu da seguinte forma:
-
-Ambos os scripts foram escritos em Python 3.8. Esta é uma linguagem de programação com uma curva de aprendizagem menor, que te permite trabalhar rapidamente, e integrar diferentes sistemas com maior eficiência.
+O primeiro deles, `script-anais-anpuh.py`, realiza a raspagem dos trabalhos em PDF de todos os Simpósios Nacionais da Anpuh entre 1963 até 2017, disponíveis atualmente na [site da associação](https://anpuh.org.br/index.php/documentos/anais). O segundo script, `script-anais-anpuh-2019.py`, foi desenvolvido como desdobramento do primeiro para raspar os trabalhos publicados nos anais do 30º Simpósio Nacional de História, realizado no ano de 2019 em Recife, PE. Isso foi necessário pois esses anais ainda não estão disponíveis no repositório do site da Anpuh, e sim constam no site específico do evento de 2019.
 
 O código utilizou as seguintes bibliotecas e módulos do Python 3:
 
@@ -163,11 +165,11 @@ O código utilizou as seguintes bibliotecas e módulos do Python 3:
 - pandas: Pandas é uma biblioteca escrita em Python para manipulação e análise de dados.
 - wget: Wget é uma biblioteca escrita em Python para realizar downloads. 
 
-Funções do script
+### Funções do script
 
-O script-anais-anpuh.py tem o seguinte funcionamento quando executado:
+O `script-anais-anpuh.py` tem o seguinte funcionamento quando executado:
 
-1. Cria pasta para salvar os PDFs, após verificar se a mesma não existe no local: `Anais Anpuh> pdf` utilizando módulo `os`.
+1. Cria pasta para salvar os PDFs, após verificar se a mesma não existe no local: `Anais Anpuh > pdf` utilizando módulo `os`.
 2. Acessa a URL dos Anais com a biblioteca `urllib` e realiza a análise do HTML da mesma com a biblioteca `BeautifulSoup`;
 3. Cria uma lista de eventos a partir da página principal;
 4. Acessa as páginas de cada evento contidas na lista criada anteriormente através de uma interação;
@@ -181,26 +183,25 @@ O script-anais-anpuh.py tem o seguinte funcionamento quando executado:
 
 O script-anais-anpuh-2019.py realiza a mesma lógica de ação a partir do item 5. da lista anterior a partir do site do 30 º SNH da Anpuh, pois ainda não estão disponíveis no site principal da associação.
 
-Resultados
+### Resultados
 
-O script retorna para o usuário todos os pdfs disponíveis em todas as páginas de todos os Simpósios Nacionais da Anpuh desde 1963 até 2017. São criadas pastas com o número de cada evento para o armazenamento dos arquivos em PDF. Verificar figura 2.
-É importante notar que muitos papers não estão com pdf disponível no site, assim como nas edições mais antigas encontramos arquivos que contém vários papers num único PDF.
+Os *scripts* retornam para o usuário todos os PDFs disponíveis em todas as páginas de todos os Simpósios Nacionais da Anpuh desde 1963 até 2017 e os de 2019. São criadas pastas com o número de cada evento para o armazenamento dos arquivos em PDF. É importante notar que muitos papers não estão com PDF disponível no site, assim como nas edições mais antigas encontramos arquivos que contém vários papers num único PDF.
 
-O script também gera um arquivo CSV (comma-separated values) contendo os seguintes valores para cada paper: Autor(es)/Instituições,Título, Tipo, Evento, Ano, Link do Arquivo. Esse arquivo pode ser aberto como uma planilha e trabalhado em banco de dados. Verificar figura 3.
+Também é gerado um arquivo CSV (*comma-separated value*s) contendo os seguintes valores para cada paper: Autor(es)/Instituições,Título, Tipo, Evento, Ano, Link do Arquivo. Esse arquivo pode ser aberto como uma planilha e trabalhado em banco de dados.
 
-Filtrando o dataset
+### Filtrando o dataset
 
 Após a raspagem dos documentos produzimos um dataset composto de trinta e quatro pastas, do primeiro SNH até o trigésimo (quatro eventos possuem pastas de resumos além dos eventos completos). Um total de 15.157 arquivos em PDF.
 
-Para os objetivos desse projeto, filtramos esse conjunto de dados cronologicamente, a partir do 27º SNH no ano de 2013. Essa seleção se justifica por esse ter sido o evento de fundação do Grupo de Trabalho Emancipações Pós-Abolição. Esse novo dataset filtrado cronologicamente conta com 6.434 arquivos em PDF. É importante lembrar que esse número corresponde aos trabalhos completos que foram publicados nos anais dos eventos dos anos de 2013, 2015, 2017 e 2019 e não do número de trabalhos submetidos, aprovados e apresentados no evento (sendo esse número muito superior).
+Para os objetivos dessa pesquisa, filtramos esse conjunto de dados cronologicamente, a partir do 27º SNH no ano de 2013. Essa seleção se justifica por esse ter sido o evento de fundação do Grupo de Trabalho Emancipações Pós-Abolição. Esse novo dataset filtrado cronologicamente conta com 6.434 arquivos em PDF. É importante lembrar que esse número corresponde aos trabalhos completos que foram publicados nos anais dos eventos dos anos de 2013, 2015, 2017 e 2019 e não do número de trabalhos submetidos, aprovados e apresentados no evento (sendo esse número muito superior).
 
 Em seguida, fizemos curso de formação com o professor Eric e com o LABHDUFBA para utilização do programa ATLAS.ti 7.
 
 O ATLAS.ti (Archive of Technology, Life word ad Language for Text Interpretation) é um aplicativo categorizado como CAQDAS (Computer Assisted Qualitative Data Analysis) para apoio a pesquisa qualitativa de dados através da leitura computadorizada de diversas fontes digitais. É um software de código fechado, com direitos exclusivos, sendo necessário licença para uso. Sua criação partiu de um projeto em 1986, do professor Heiner Legewie, na Universidade Técnica de Berlim, que objetivava construir um arquivo de dados que pudesse auxiliar nas entrevistas de uma pesquisa sobre os sobreviventes de Chernobyl. Em parceria com pesquisadores das áreas de sociologia, linguística e computação foi desenvolvida a primeira versão, que consistia em auxiliar na seleção de fragmentos de entrevistas, categorizá-los e adicionar anotações sobre tais fragmentos para análise sistemática. Posteriormente, o software foi sendo aprimorado, culminando na diversidade de funcionalidades das versões atuais. Dentre estas funcionalidades, podemos destacar a criação de códigos (codes) que são marcadores- normalmente uma palavra ou frase que sintetiza alguma compreensão teórica -  para um conjunto de trechos selecionados (quotatios). Estes códigos podem possuir códigos filhos e uma família de códigos, além de outras relações entre si. Estas redes de relações (network) também são uma funcionalidade passível de utilização para construção de objetos de análise, gerando árvores de códigos. Dispõe ainda de uma função para anotações (memos), sendo possível adicioná-la a qualquer um destes elementos. (BRASIL; NASCIMENTO, no prelo).
 
-Para a análise dos dados, criamos um projeto (no ATLAS.ti 7 definido como Unidade Hermenêutica) e inserimos todos os 6.434 PDFs coletados. Cada PDF nesta unidade é denominado de Document ou Primary Document. Destes 6.434 Documents precisávamos selecionar quais continham o termo pós-abolição. Para isso, utilizamos uma função denominada Auto Coding, que consiste em uma seleção automatizada de trechos (quotation ou citação) a partir de um elemento textual pré-definido manualmente. Utilizamos regular expressions para que a codificação automatizada fosse mais precisa, fizemos uso do operador / (que significa ou) entre um conjunto de expressões: pós-abolição | pos-abolição | pós-abolicionismo | pós-emancipação | pos-emancipação. Não foi necessário criar uma combinação para diferenciar caracteres maiúsculos e minúsculos pois o padrão do aplicativo é fazer a leitura do termo sem diferenciá-los, dispondo da função Case Sensitive para isto. Como nesse momento se tratava de uma estratégia para selecionar todos os arquivos que contivessem o termo, preferimos que todo o corpo do PDF fosse selecionado ao invés de parágrafos. Esse procedimento resultou na identificação de 185 PDFs.
+Para a análise dos dados, criamos um projeto (no ATLAS.ti 7 definido como Unidade Hermenêutica) e inserimos todos os 6.434 PDFs coletados. Cada PDF nesta unidade é denominado de Document ou Primary Document. Destes 6.434 Documents precisávamos selecionar quais continham o termo pós-abolição. Para isso, utilizamos uma função denominada Auto Coding, que consiste em uma seleção automatizada de trechos (quotation ou citação) a partir de um elemento textual pré-definido manualmente. Utilizamos regular expressions para que a codificação automatizada fosse mais precisa, fizemos uso do operador / (que significa ou) entre um conjunto de expressões: `pós-abolição|pos-abolição|pós-abolicionismo|pós-emancipação|pos-emancipação`. Não foi necessário criar uma combinação para diferenciar caracteres maiúsculos e minúsculos pois o padrão do aplicativo é fazer a leitura do termo sem diferenciá-los, dispondo da função Case Sensitive para isto. Como nesse momento se tratava de uma estratégia para selecionar todos os arquivos que contivessem o termo, preferimos que todo o corpo do PDF fosse selecionado ao invés de parágrafos. Esse procedimento resultou na identificação de 185 PDFs.
 
-Com a base de dados pronta, discutimos sobre a maneira de formatar a ferramenta com as compreensões teóricas sobre o pós-abolição transformando-as em códigos de análise, os quais ficaram pré-definidos em famílias de códigos e códigos filho, respectivamente. São eles:
+Com a base de dados pronta, discutimos e elaboramos a árvore de códigos que refletissem nossas compreensões teóricas sobre o pós-abolição. Tais códigos de análiseforam pré-definidos em famílias de códigos e códigos filho, respectivamente. São eles:
 
 - TEMÁTICA_GERAL: É a temática específica da publicação, qual assunto está sendo abordado. Estes são os elementos pelo qual emergiram as discussões sobre o pós-abolição, representam as diversas agências utilizadas para a discussão do campo. Lista de códigos identificados:
 	- TEMÁTICA_GERAL::AFRICANOS LIVRES
@@ -448,7 +449,9 @@ Com a base de dados pronta, discutimos sobre a maneira de formatar a ferramenta 
 
 Vale destacar, que parte dos códigos foram desenvolvidos de maneira dinâmica à medida que fomos identificando os elementos nos papers.
 
-Finalizada a adequação da ferramenta aos objetivos do projeto, geramos tabelas com os dados quantitativos compilados pelo atlas.ti 7, em seguida passamos a analisar os dados.
+[***Explicar como foi o processo de codificação: valorizar o fato de você ter lido e analisado os papers para poder aplicar os códigos de maneira coerente. Esse processo de leitura próxima foi muito importante e mostra a combinação entre leitura computadorizada (raspagem, filtragem + auto-coding) e leitura próxima qualitativa humana.***]
+
+Finalizado o processo de codificação, geramos tabelas com os dados quantitativos compilados pelo atlas.ti 7, em seguida passamos a analisar os dados.
 
 A partir desses dados, foram gerados gráficos pelo professor Eric Brasil com o pandas, que é uma biblioteca (conjunto de funções e métodos que compõem um módulo para ser utilizado no desenvolvimento de códigos de programação) de código aberto, utilizada em IDE’s da linguagem python para análise de dados, onde são convertidos e dispostos em formas tabulares, constituindo um dataframe. Estes gráficos compõem parte dos anexos que ilustram a pesquisa.
 
