@@ -15,7 +15,7 @@ Por se tratar de uma monografia com foco historiográfico, nos apropriamos das d
 
 Como apontou Marc Bloch em *Apologia da História ou o Oficio do Historiador*, a história se faz a partir dos vestígios deixados pelo homem (BLOCH, 2002), hoje encontramos vestígios de uma sociedade cada vez mais informatizada. Assim, buscamos refletir sobre as possibilidades de levantar novos questionamentos a partir da utilização de ferramentas digitais como parte metodológica da escrita da história, especificamente do Pós-abolição.
 
-***[Aqui vale a pena você explicar para o leitor como está organizada a monografia, fazendo um parágrafo para explicar cada capítulo]***
+A monografia está dividida em três capítulos. No primeiro capítulo, situamos o tempo histórico do qual a pesquisa pretende tratar, a fonte utilizada, caracterizamos a ANPUH e refletimos sobre o que é o pós-abolição para a historiografia recente apoiados em autores como Sidney Shaloub, Petrônio Domingues e Flávio Gomes, Eric Brasil, Fernanda Oliveira, Wlamira Albuquerque, João Reis e Eduardo, Álvaro Nascimento. O segundo capítulo está dividido em duas partes. Na primeira, conceituamos o que entendemos ser a História Digital, discutimos sobre fontes e a utilização de dados digitais na pesquisa historiográfica, usando como referência Helyom Telles, Marc Block, Eric Brasil e Leonardo Nascimento, Anita Lucchesi, Mattew Salganik, Helle Jensen e Adam Crymble. No terceiro capítulo, iremos apesentar alguns resultados encontrados na pesquisa e uma breve análise do que tais resultados podem indicar(falta finalizar). 
 
 ## Capítulo 1 - O que é o Pós-abolição? Situando o debate historiográfico.
 
