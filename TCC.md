@@ -57,7 +57,7 @@ Buscamos nos métodos da História Digital uma forma de analisar as diversas pos
 
 ## Parte I -Reflexões teórico-metodológicas sobre as fontes. 
 
-Segundo Telles (2017, apud Zaagsmabmgn(2013))[^4], é nos Estados Unidos, na década de 1960, influenciada pela Nova História Econômica, que se percebe inicialmente o interesse em analisar dados quantitativos com computadores, tendo o ano de 1963 a publicação sobre as obras de São Tomás de Aquino feita por Roberto Busa como marco do início da historiografia digital. Após isso, o campo passou por longo período de ascensão, perdendo espaço na década de 1980 para análises mais voltadas para a narrativa histórica.
+Segundo Zaagsmabmgn (2013, apud Telles(2017, p. 84))[^4], é nos Estados Unidos, na década de 1960, influenciada pela Nova História Econômica, que se percebe inicialmente o interesse em analisar dados quantitativos com computadores, tendo o ano de 1963 a publicação sobre as obras de São Tomás de Aquino feita por Roberto Busa como marco do início da historiografia digital. Após isso, o campo passou por longo período de ascensão, perdendo espaço na década de 1980 para análises mais voltadas para a narrativa histórica.
 
 [^4]: Se vc está citando Zaagsmabmgn a partir de Telles é ao contrário: "Segundo Zaagsmabmgn (apud Telles, 201t, p.?)"
 
@@ -77,7 +77,7 @@ Jensen(2020) define os metadados como:
 
 > Metadados são, em sua essência, dados sobre dados, pode ser, o que normalmente foi registrado em uma auxílio de busca(por exemplo, data, criador e local). Mas também pode ser muito mais do que isso, incluindo descrições de assunto muito detalhadas espalhadas por categorias que descrevem qualquer coisa, desde conteúdo a material, necessidade de preservação ou direitos autorais.(Jensen, 2020, p.? tradução nossa)
 
-Os metadados, portanto, "explicam, contextualizam, conferem veracidade ao documento” (Brasil e Nascimento, 2020, p. 202). A análise desses metadados[^5] nos indicaram alguns aspectos dos perfis de autores e das produções, possibilitando a identificação de tendências de correntes historiográficas no campo, o que será detalhado no capítulo III da monografia. 
+Os metadados, portanto, "explicam, contextualizam, conferem veracidade ao documento” (Brasil e Nascimento, 2020, p. 202). A análise de alguns metadados já presentes nos papers como instituição, autoria, titulação e,[^5] a construção de outros através de identificadores criados nas etiquetas do Atlas.ti como recorte espacial e recorte temporal,  nos indicaram alguns aspectos dos perfis de autores e das produções, possibilitando a identificação de tendências de correntes historiográficas no campo, o que será detalhado no capítulo III da monografia. 
 
 [^5]: Vc ainda não mostrou quais são esses metadados né. talvez apontar brevemente no parágrafo anterior.
 
@@ -91,17 +91,17 @@ Em segundo lugar, salientando a importância do caráter subjetivo do ofício do
 
 E em terceiro lugar, entendendo a importância da construção de boas perguntas sobre o objeto de pesquisa, diante do caminhar da sociedade contemporânea, da qual a tecnologia digital é indissociável, hoje encontramos nesses meios os ‘vestígios’ de uma sociedade informatizada, fazendo-se imprescindível que nos adequemos a esses novos meios se quisermos acompanhar os registros dessa sociedade. Ainda atentos ao que Marc Bloch relata: 
 	
-> Velho medievalista, confesso não conhecer leitura mais atraente do que um cartulário. É que sei aproximadamente o que lhe perguntar. Uma coletânea de inscrições romanas, em contrapartida, me diz pouco. Se com dificuldade consigo lê-las, não sei solicitá-las (BLOCH, 2002, p.?).
+> Velho medievalista, confesso não conhecer leitura mais atraente do que um cartulário. É que sei aproximadamente o que lhe perguntar. Uma coletânea de inscrições romanas, em contrapartida, me diz pouco. Se com dificuldade consigo lê-las, não sei solicitá-las (BLOCH, 2002, p.79).
 
 Ou seja, parafraseando o historiador francês: uma coletânea de tweets ou milhões de metadados sobre publicações acadêmicas ou um jornal digitalizado dirão pouco aos historiadores que não conseguirem lê-los de forma adequada, com ferramentas e habilidades coerentes com suas especificidades. Como afirmar Brasil e Nascimento: 
 
 >Quando um registro histórico — seja ele um manuscrito, uma carta, uma edição de jornal, uma foto, um livro etc. — converte-se, por meio de algum processo computacional, em um documento digital, ocorre aí uma mudança que dificilmente poderia ser considerada trivial. Apesar de a informação contida na fonte continuar “sendo a mesma” — no sentido de que a digitalização não alteraria substancialmente o conteúdo do registro histórico —, podemos dizer que a modificação na “materialidade” da fonte histórica nos conduz, inevitavelmente, a uma nova condição em relação ao modo de lidarmos com a informação ali contida. (Brasil e Nascimento, 2020, p. 201)
 
-Sobre a reflexão acerca da utilização das fontes em meios digitais, Jensen[^6] (2020) aponta como um dos aspectos a necessidade de entender a política da instituição que organiza e publiciza tais fontes, além de entender a lógica desses processos pois, “A qualidade da pesquisa histórica depende da compreensão dessas lógicas porque elas tem consequências metodológicas.” (Jensen, 2020, p.? tradução nossa). 
+Sobre a reflexão acerca da utilização das fontes em meios digitais, Helle Jensen[^6] (2020) aponta como um dos aspectos a necessidade de entender a política da instituição que organiza e publiciza tais fontes, além de entender a lógica desses processos pois, “A qualidade da pesquisa histórica depende da compreensão dessas lógicas porque elas tem consequências metodológicas.” (Jensen, 2020, p.? tradução nossa). 
 
 [^6]: que tal colocar o primeiro nome para marcar que são mulheres? essa é uma prática que os estudos feministas vêm propondo.
 
-Neste sentido, sabemos que as publicações dos papers da ANPUH passaram por um conjunto de procedimentos metodológicos de avaliação próprios da academia, e que os interesses da publicização de tais conteúdos estão associadas a difundir conhecimento epistêmico de acordo com as recomendações éticas da escrita historiográfica. [^7]
+Neste sentido, sabemos que as publicações dos papers da ANPUH passaram por um conjunto de procedimentos metodológicos de avaliação próprios da academia, e que os interesses da publicização de tais conteúdos estão associadas a difundir conhecimento epistêmico de acordo com as recomendações éticas da escrita historiográfica. Porém, gostraíamos de pontuar algumas considerações acerca da estrutura. Parte da metodologia demandou uma análise mais detalhada dos papers devido ao caráter subjetivo da linguagem assim, fizemos a leitura próxima dos 185 pdfs, o que nos fez perceber algumas lacunas em relação à estrutura como a ausência de informações sobre autoria, instituição ou formação e, em alguns momentos sentimos dificuldade em relacionar o título com o corpo do texto, bem como identificar do que se tratava a temática geral.  [^7]
 
 [^7]: Mas ainda assim você percebeu vários problemas né: falta de padronização dos papers, baixa qualidade (mesmo que vc não fale assim).
 
