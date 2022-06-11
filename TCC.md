@@ -120,7 +120,7 @@ Neste sentido, sabemos que as publicações dos papers da ANPUH passaram por um 
 
 Para desenvolvimento da pesquisa, utilizamos uma metodologia híbrida, com técnicas próprias da ciência computacional e práticas de pesquisa historiográfica. Para isso, fizemos formação para utilizar ferramentas digitais específicas como o Zotero e Atlas.ti 7, e de compreensões básicas sobre a linguagem de programação Python. Tivemos momentos de leitura da bibliografia do projeto e reuniões para discussão da mesma no intuito de construir um arcabouço teórico para nortear a análise qualitativa dos dados.
 
-Sobre a formação teórica, após levantamento bibliográfico das temáticas mais pertinentes, dado o caráter do projeto de buscar caracterizar produções historiográficas em meios digitais, sobre Humanidades Digitais, priorizamos leituras que tratassem de possíveis conceituações deste campo, que avaliassem como ferramentas digitais podem ser utilizadas na pesquisa historiográfica, os impactos da tecnologia no ofício do historiador, e da importância de acompanhar e criticar os avanços tecnológicos para a construção do conhecimento histórico. Dessa forma, incidimos em trabalhos que estavam mais voltados para as discussões no âmbito da Sociologia e da História.[^8]
+Sobre a formação teórica, após levantamento bibliográfico das temáticas mais pertinentes, dado o caráter do projeto de buscar caracterizar produções historiográficas em meios digitais, sobre Humanidades Digitais, priorizamos leituras que tratassem de possíveis conceituações deste campo, que avaliassem como ferramentas digitais podem ser utilizadas na pesquisa historiográfica, os impactos da tecnologia no ofício do historiador, e da importância de acompanhar e criticar os avanços tecnológicos para a construção do conhecimento histórico. Dessa forma, incidimos em trabalhos que estavam mais voltados para as discussões no âmbito da Sociologia  e da Históriacomo "As Humanidades Digitais como uma comunidade de práticas dentro do formalismo académico: dos exemplos internacionais ao caso português", "História Digital: reflexões a partir da Hemeroteca Digital Brasileira e do uso de CAQDAS na reelaboraçõa da pesquisa histórica", "Novas fronteiras metodológicas nas ciências sociais", "Bit by bit: social research in the digital age","Evidências, códigos e classificações: o ofício do historiador e o mundo digital", "Digital history e Storiografia digitale : estudo comparado sobre a escrita da história no tempo presente (2001-2011)", "Nunca fomos tão úteis","HISTÓRIA DIGITAL, SOCIOLOGIA DIGITAL E HUMANIDADES DIGITAIS: Algumas questões metodológicas".[^8]
 
 [^8]: vc vai ter que citar essas leituras
 
@@ -142,19 +142,19 @@ Para a criação da biblioteca foi necessário construir coleções, que são um
 
 |Nome da coleção                                          |Quantidade de Itens|
 |---------------------------------------------------------|-------------------|
-|Acervos e Arquivos Digitais                              |28                 |
+|Acervos e Arquivos Digitais                              |30                 |
 |Definições de tecnologias                                |4                  | 
-|Ensino e Humanidades Digitais                            |4                  | 
-|Ferramentas Digitais                                     |40                 | 
-|Hemerotecas e Bibliotecas Digitais                       |17                 | 
-|Heurística Digitais                                      |2                  | 
-|História Publica Digital                                 |3                  | 
-|Humanidades Digitais                                     |29                 | 
+|Ensino e Humanidades Digitais                            |9                  | 
+|Ferramentas Digitais                                     |48                 | 
+|Hemerotecas e Bibliotecas Digitais                       |23                 | 
+|Heurística Digital                                       |4                  | 
+|História Publica Digital                                 |10                 | 
+|Humanidades Digitais                                     |40                 | 
 |Memoria                                                  |4                  | 
-|Metodologias Digitais                                    |42                 | 
-|NLP e NER                                                |22                 |  
-|Reflexões Críticas: decolonialidade e interseccionalidade|22                 | 
-|Teoria e Epistemologia da História                       |31                 | 
+|Metodologias Digitais                                    |51                 | 
+|NLP e NER                                                |24                 |  
+|Reflexões Críticas: decolonialidade e interseccionalidade|26                 | 
+|Teoria e Epistemologia da História                       |42                 | 
 
 Essas coleções foram definidas pensando nos principais recortes onde se aborda a temática da História Digital e temas interligados. A biblioteca continua em constante atualização, podendo ter referências adicionadas por quem tiver interesse em colaborar com o projeto, mediante avaliação do administrador.  Atualmente, a biblioteca conta com quatorze membros, podendo ser acessada neste [link](https://www.zotero.org/groups/2216280/histria_digital).
 
