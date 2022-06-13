@@ -156,18 +156,17 @@ Para a criação da biblioteca foi necessário construir coleções, que são um
 |Reflexões Críticas: decolonialidade e interseccionalidade|26                 | 
 |Teoria e Epistemologia da História                       |42                 | 
 
+
 Essas coleções foram definidas pensando nos principais recortes onde se aborda a temática da História Digital e temas interligados. A biblioteca continua em constante atualização, podendo ter referências adicionadas por quem tiver interesse em colaborar com o projeto, mediante avaliação do administrador.  Atualmente, a biblioteca conta com quatorze membros, podendo ser acessada neste [link](https://www.zotero.org/groups/2216280/histria_digital).
 
 Na etapa seguinte, passamos a trabalhar diretamente com a base de dados criada a partir da raspagem dos Anais dos Simpósios Nacionais de História da Anpuh. Diante da necessidade de compreender o funcionamento do *script* para raspagem dos dados nas plataformas, o qual foi criado pelo professor Eric em parceria com o Laboratório de Humanidades Digitais da UFBA, fizemos workshops de linguagem de programação orientada a objeto, com a linguagem Python. 
 
-Dois *scripts* de raspagem de dados referentes aos trabalhos completos publicados nos anais da Anpuh foram criados. Ambos escritos em Python 3.8 [^11] e disponíveis no repositório Anais-Anpuh no GitHub do Laboratório de Humanidades Digitais da UFBA e podem ser acessados através desse [link](https://github.com/LABHDUFBA/Anais-Anpuh).
-
+Podemos resumir o processo de coleta dos dados da seguinte maneira: dois *scripts* de raspagem de dados referentes aos trabalhos completos publicados nos anais da Anpuh foram criados. Ambos escritos em Python 3.8 [^11] . O primeiro deles, script-anais-anpuh.py realizou a raspagem dos trabalhos em PDF de todos os Simpósios Nacionais da Anpuh entre 1963 até 2017, atualmente disponíveis na página oficial da associação. O segundo script, script-anais-anpuh-2019.py, foi desenvolvido como desdobramento do primeiro para raspar os trabalhos publicados nos Anais do 30º Simpósio Nacional de História, realizado no ano de 2019 em Recife, PE. Isso foi necessário pois esses Anais ainda não estão disponíveis no repositório do site da Anpuh, constando apenas no site específico do evento de 2019.
 
 [^11]: Python é uma linguagem de programação com uma curva de aprendizagem menor, que te permite trabalhar rapidamente, e integrar diferentes sistemas com maior eficiência. Para saber mais, acesse https://www.python.org/downloads/
-
-O primeiro deles, `script-anais-anpuh.py`, realiza a raspagem dos trabalhos em PDF de todos os Simpósios Nacionais da Anpuh entre 1963 até 2017, disponíveis atualmente na [site da associação](https://anpuh.org.br/index.php/documentos/anais). O segundo script, `script-anais-anpuh-2019.py`, foi desenvolvido como desdobramento do primeiro para raspar os trabalhos publicados nos anais do 30º Simpósio Nacional de História, realizado no ano de 2019 em Recife, PE. Isso foi necessário pois esses anais ainda não estão disponíveis no repositório do site da Anpuh, e sim constam no site específico do evento de 2019.
-
-O código utilizou as seguintes bibliotecas e módulos do Python 3:
+Ambos os scripts estão disponíveis no repositório Anais-Anpuh no GitHub do Laboratório de Humanidades Digitais da UFBA e podem ser acessados através desse link: https://github.com/LABHDUFBA/Anais-Anpuh.
+A sequência lógica do funcionamento do script para a raspagem foi criar uma pasta para salvar os PDFs, acessar a url dos Anais da ANPUH, criar uma lista de eventos a partir da página principal, acessar as páginas específicas de cada evento e em cada item da lista buscar os papers e criar uma nova lista. Em cada item desta nova lista, encontrar as informações específicas do paper, criar uma nova lista com as informações, verificar se há pdfs disponíveis e se não é repetido e fazer o download do mesmo. Isso ocorre repetidas vezes até que o script percorra todas as páginas de todos os eventos.
+Para que o script pudesse integrar as diversas etapas citadas anteriormente, foi necessário utilizar algumas bibliotecas (conjunto de funções e métodos que compõem um módulo para ser utilizado no desenvolvimento de códigos de programação) e módulos (que são um conjunto de instruções específicas descritas em um único arquivo) do Python 3, sendo eles:
 
 - urllib.requests: módulo do Python para acessar urls. Saiba mais.
 - os: módulo do Python que permite manipular funções do sistema operacional. Saiba mais.
@@ -176,308 +175,48 @@ O código utilizou as seguintes bibliotecas e módulos do Python 3:
 - pandas: Pandas é uma biblioteca escrita em Python para manipulação e análise de dados.
 - wget: Wget é uma biblioteca escrita em Python para realizar downloads. 
 
-### Funções do script
-
-O `script-anais-anpuh.py` tem o seguinte funcionamento quando executado:
-
-1. Cria pasta para salvar os PDFs, após verificar se a mesma não existe no local: `Anais Anpuh > pdf` utilizando módulo `os`.
-2. Acessa a URL dos Anais com a biblioteca `urllib` e realiza a análise do HTML da mesma com a biblioteca `BeautifulSoup`;
-3. Cria uma lista de eventos a partir da página principal;
-4. Acessa as páginas de cada evento contidas na lista criada anteriormente através de uma interação;
-5. Em cada item da lista de eventos, o script busca todos os papers da primeira página e cria uma nova lista. Nessa lista de papers de uma dada página o script ralizará as seguintes ações:
-
-- encontrar as informações de cada paper;
-- inclui essas informações em uma lista (que depois gerará um CSV com os dados);
-- busca se há pdf disponível e se ele não é repetido
-- faz download do PDF
-- Após realizar essas ações para todos os itens de uma página, busca a próxima página de papers do evento, se não houver, passa para o próximo evento e repete as ações em um _loop_ até o último evento disponível.
-
-O script-anais-anpuh-2019.py realiza a mesma lógica de ação a partir do item 5. da lista anterior a partir do site do 30 º SNH da Anpuh, pois ainda não estão disponíveis no site principal da associação.
-
-### Resultados
-
-Os *scripts* retornam para o usuário todos os PDFs disponíveis em todas as páginas de todos os Simpósios Nacionais da Anpuh desde 1963 até 2017 e os de 2019. São criadas pastas com o número de cada evento para o armazenamento dos arquivos em PDF. É importante notar que muitos papers não estão com PDF disponível no site, assim como nas edições mais antigas encontramos arquivos que contém vários papers num único PDF.
-
-Também é gerado um arquivo CSV (*comma-separated value*s) contendo os seguintes valores para cada paper: Autor(es)/Instituições,Título, Tipo, Evento, Ano, Link do Arquivo. Esse arquivo pode ser aberto como uma planilha e trabalhado em banco de dados.
-
-### Filtrando o dataset
-
 Após a raspagem dos documentos produzimos um dataset composto de trinta e quatro pastas, do primeiro SNH até o trigésimo (quatro eventos possuem pastas de resumos além dos eventos completos). Um total de 15.157 arquivos em PDF.
 
-Para os objetivos dessa pesquisa, filtramos esse conjunto de dados cronologicamente, a partir do 27º SNH no ano de 2013. Essa seleção se justifica por esse ter sido o evento de fundação do Grupo de Trabalho Emancipações Pós-Abolição. Esse novo dataset filtrado cronologicamente conta com 6.434 arquivos em PDF. É importante lembrar que esse número corresponde aos trabalhos completos que foram publicados nos anais dos eventos dos anos de 2013, 2015, 2017 e 2019 e não do número de trabalhos submetidos, aprovados e apresentados no evento (sendo esse número muito superior).
-
-Em seguida, fizemos curso de formação com o professor Eric e com o LABHDUFBA para utilização do programa ATLAS.ti 7.
-
+Essa raspagem resultou em uma base de dados com 15.157 PDFs, que em seguida foram filtrados cronologicamente devido aos objetivos específicos da pesquisa, a partir do 27º SNH no ano de 2013. Como intuito principal está em entende como o termo pós-abolição tem sido tratado nos simpósios da ANPUH,  essa seleção se justifica por esse ter sido o evento de fundação do Grupo de Trabalho Emancipações e Pós-Abolição. Esse novo dataset filtrado cronologicamente conta com 6.434 arquivos em PDF. É importante lembrar que esse número corresponde aos trabalhos completos que foram publicados nos anais dos eventos dos anos de 2013, 2015, 2017 e 2019 e não do número de trabalhos submetidos, aprovados e apresentados no evento (sendo esse número muito superior).
+Em sequência, fizemos uma formação para utilização do programa ATLAS.ti 7 com o professor Eric e com o LABHDUFBA. 
 O ATLAS.ti (Archive of Technology, Life word ad Language for Text Interpretation) é um aplicativo categorizado como CAQDAS (Computer Assisted Qualitative Data Analysis) para apoio a pesquisa qualitativa de dados através da leitura computadorizada de diversas fontes digitais. É um software de código fechado, com direitos exclusivos, sendo necessário licença para uso. Sua criação partiu de um projeto em 1986, do professor Heiner Legewie, na Universidade Técnica de Berlim, que objetivava construir um arquivo de dados que pudesse auxiliar nas entrevistas de uma pesquisa sobre os sobreviventes de Chernobyl. Em parceria com pesquisadores das áreas de sociologia, linguística e computação foi desenvolvida a primeira versão, que consistia em auxiliar na seleção de fragmentos de entrevistas, categorizá-los e adicionar anotações sobre tais fragmentos para análise sistemática. Posteriormente, o software foi sendo aprimorado, culminando na diversidade de funcionalidades das versões atuais. Dentre estas funcionalidades, podemos destacar a criação de códigos (codes) que são marcadores- normalmente uma palavra ou frase que sintetiza alguma compreensão teórica -  para um conjunto de trechos selecionados (quotatios). Estes códigos podem possuir códigos filhos e uma família de códigos, além de outras relações entre si. Estas redes de relações (network) também são uma funcionalidade passível de utilização para construção de objetos de análise, gerando árvores de códigos. Dispõe ainda de uma função para anotações (memos), sendo possível adicioná-la a qualquer um destes elementos. (BRASIL; NASCIMENTO, no prelo).
 
 Para a análise dos dados, criamos um projeto (no ATLAS.ti 7 definido como Unidade Hermenêutica) e inserimos todos os 6.434 PDFs coletados. Cada PDF nesta unidade é denominado de Document ou Primary Document. Destes 6.434 Documents precisávamos selecionar quais continham o termo pós-abolição. Para isso, utilizamos uma função denominada Auto Coding, que consiste em uma seleção automatizada de trechos (quotation ou citação) a partir de um elemento textual pré-definido manualmente. Utilizamos regular expressions para que a codificação automatizada fosse mais precisa, fizemos uso do operador / (que significa ou) entre um conjunto de expressões: `pós-abolição|pos-abolição|pós-abolicionismo|pós-emancipação|pos-emancipação`. Não foi necessário criar uma combinação para diferenciar caracteres maiúsculos e minúsculos pois o padrão do aplicativo é fazer a leitura do termo sem diferenciá-los, dispondo da função Case Sensitive para isto. Como nesse momento se tratava de uma estratégia para selecionar todos os arquivos que contivessem o termo, preferimos que todo o corpo do PDF fosse selecionado ao invés de parágrafos. Esse procedimento resultou na identificação de 185 PDFs.
 
-Com a base de dados pronta, discutimos e elaboramos a árvore de códigos que refletissem nossas compreensões teóricas sobre o pós-abolição. Tais códigos de análiseforam pré-definidos em famílias de códigos e códigos filho, respectivamente. São eles:
+Com a base de dados pronta, elaboramos a árvore de códigos (que consiste em um conjunto de códigos que se relacionam de maneira não linear) que refletissem nossas compreensões teóricas sobre o pós-abolição. Tais códigos de análise foram pré-definidos em famílias de códigos e códigos filho, respectivamente. São eles:
 
-- TEMÁTICA_GERAL: É a temática específica da publicação, qual assunto está sendo abordado. Estes são os elementos pelo qual emergiram as discussões sobre o pós-abolição, representam as diversas agências utilizadas para a discussão do campo. Lista de códigos identificados:
-	- TEMÁTICA_GERAL::AFRICANOS LIVRES
-	- TEMÁTICA_GERAL::AFRO-RELIGIOSIDADES
-	- TEMÁTICA_GERAL::ALFORRIAS
-	- TEMÁTICA_GERAL::ANÁLISE_LINGUÍSTICA
-	- TEMÁTICA_GERAL::ARQUITETURA
-	- TEMÁTICA_GERAL::ARTE_NEGRA
-	- TEMÁTICA_GERAL::ASSISTENCIALISMO
-	- TEMÁTICA_GERAL::ASSOCIATIVISMO
-	- TEMÁTICA_GERAL::AUDIOVISUAL
-	- TEMÁTICA_GERAL::BAILES
-	- TEMÁTICA_GERAL::BELEZA
-	- TEMÁTICA_GERAL::CAMPESINATO
-	- TEMÁTICA_GERAL::CANDOMBLÉ
-	- TEMÁTICA_GERAL::CIDADANIA
-	- TEMÁTICA_GERAL::CINEMA
-	- TEMÁTICA_GERAL::CLASSE
-	- TEMÁTICA_GERAL::COMÉRCIO
-	- TEMÁTICA_GERAL::CONTROLE_TERRAS
-	- TEMÁTICA_GERAL::COTAS_RACIAIS
-	- TEMÁTICA_GERAL::CRIMINALIDADE
-	- TEMÁTICA_GERAL::CRISE_AGRÁRIA
-	- TEMÁTICA_GERAL::CULTURA_AFRO_BRASILEIRA
-	- TEMÁTICA_GERAL::DANÇA
-	- TEMÁTICA_GERAL::DEFLORAMENTO
-	- TEMÁTICA_GERAL::DITADURA
-	- TEMÁTICA_GERAL::EDUCAÇÃO
-	- TEMÁTICA_GERAL::ELEMENTO_RELIGIOSO
-	- TEMÁTICA_GERAL::ENSINO_AGRÍCOLA
-	- TEMÁTICA_GERAL::ENSINO_DE_HISTÓRIA
-	- TEMÁTICA_GERAL::ENSINO_HISTÓRIA_DA_ ÁFRICA
-	- TEMÁTICA_GERAL::ESCRAVIDÃO/ESCRAVISADOS
-	- TEMÁTICA_GERAL::ESTRATÉGIAS_DE_LIBERDADE
-	- TEMÁTICA_GERAL::EVENTOS
-	- TEMÁTICA_GERAL::FAMÍLIA
-	- TEMÁTICA_GERAL::FAMÍLIA_MATRIMÔNIO
-	- TEMÁTICA_GERAL::FEIRA_LIVRE
-	- TEMÁTICA_GERAL::FEMINISMO
-	- TEMÁTICA_GERAL::FONOGRAFIA
-	- TEMÁTICA_GERAL::FORMAÇÃO_DE_PROFESSORES
-	- TEMÁTICA_GERAL::GÊNERO
-	- TEMÁTICA_GERAL::HISTÓRIA_DAS_INSTITUIÇÕES_JURÍDICAS
-	- TEMÁTICA_GERAL::HISTÓRIA_LOCAL
-	- TEMÁTICA_GERAL::HISTÓRIA_TRANSNACIONAL
-	- TEMÁTICA_GERAL::HONRA
-	- TEMÁTICA_GERAL::IDENTIDADE
-	- TEMÁTICA_GERAL::IMIGRAÇÃO
-	- TEMÁTICA_GERAL::IMPRENSA
-	- TEMÁTICA_GERAL::IMPRENSA_NEGRA
-	- TEMÁTICA_GERAL::INGÊNUOS/AS
-	- TEMÁTICA_GERAL::INTELECTUALIDADE
-	- TEMÁTICA_GERAL::IRMANDADES_RELIGIOSAS
-	- TEMÁTICA_GERAL::LAÇOS_FAMILIARES
-	- TEMÁTICA_GERAL::LEI_10639/11645/08
-	- TEMÁTICA_GERAL::LEI_VENTRE_LIVRE
-	- TEMÁTICA_GERAL::LIBERDADE
-	- TEMÁTICA_GERAL::LITERATURA
-	- TEMÁTICA_GERAL::LIVRO_DIDÁTICO/MANUAL_DO_PROFESSOR
-	- TEMÁTICA_GERAL::MATERNIDADE
-	- TEMÁTICA_GERAL::MEMÓRIA
-	- TEMÁTICA_GERAL::MIGRAÇÃO
-	- TEMÁTICA_GERAL::MITO_DEMOCRACIA_RACIAL
-	- TEMÁTICA_GERAL::MOBILIDADE
-	- TEMÁTICA_GERAL::MODERNIZAÇÃO
-	- TEMÁTICA_GERAL::MORADIA
-	- TEMÁTICA_GERAL::MOVIMENTOS_NEGROS
-	- TEMÁTICA_GERAL::MULHERES
-	- TEMÁTICA_GERAL::MUSEU
-	- TEMÁTICA_GERAL::MÚSICA
-	- TEMÁTICA_GERAL::NEGROS
-	- TEMÁTICA_GERAL::PATRIMÔNIO
-	- TEMÁTICA_GERAL::PERFORMANCES_CULTURAIS
-	- TEMÁTICA_GERAL::PERIÓDICOS
-	- TEMÁTICA_GERAL::PESQUISA_HISTÓRICA
-	- TEMÁTICA_GERAL::POBREZA
-	- TEMÁTICA_GERAL::POLÍTICA
-	- TEMÁTICA_GERAL::POLÍTICAS_PÚBLICAS
-	- TEMÁTICA_GERAL::PRÁTICAS_CURATIVAS
-	- TEMÁTICA_GERAL::PRÁTICAS_NOMINATIVAS
-	- TEMÁTICA_GERAL::PRODUÇÃO_HISTORIOGRÁFICA
-	- TEMÁTICA_GERAL::PROJETO_DE_LEI/LEGISLAÇÃO
-	- TEMÁTICA_GERAL::PSIQUISMO
-	- TEMÁTICA_GERAL::QUILOMBOS
-	- TEMÁTICA_GERAL::RACIALIZAÇÃO
-	- TEMÁTICA_GERAL::RACIALIZAÇÃO_MERCADO_TRABALHO
-	- TEMÁTICA_GERAL::RACISMO
-	- TEMÁTICA_GERAL::RAÇA
-	- TEMÁTICA_GERAL::REDE_DE_SOCIABILIDADE
-	- TEMÁTICA_GERAL::REGISTRO_CIVIL
-	- TEMÁTICA_GERAL::REGISTRO_DE_BATISMO
-	- TEMÁTICA_GERAL::REGISTRO_DE_NASCIMENTO
-	- TEMÁTICA_GERAL::RELAÇÕES_DE_COMPADRIOS
-	- TEMÁTICA_GERAL::REPRESENTAÇÃO_VISUAL
-	- TEMÁTICA_GERAL::RESISTÊNCIA_PORTUGUESA
-	- TEMÁTICA_GERAL::SINDICATO
-	- TEMÁTICA_GERAL::SOLDADAS
-	- TEMÁTICA_GERAL::TEATRO
-	- TEMÁTICA_GERAL::TERRAS/TERRITÓRIOS
-	- TEMÁTICA_GERAL::TERRITÓRIOS_NEGROS
-	- TEMÁTICA_GERAL::TRABALHO
-	- TEMÁTICA_GERAL::TRAJETORIA_FEMININA
-	- TEMÁTICA_GERAL::TRAJETORIA_MASCULINA
-	- TEMÁTICA_GERAL::TRAJETÓRIAS
-	- TEMÁTICA_GERAL::TRÁFICO
-	- TEMÁTICA_GERAL::TURISMO
-	- TEMÁTICA_GERAL::TUTELA
-	- TEMÁTICA_GERAL::UMBANDA
-	- TEMÁTICA_GERAL::URBANIZAÇÃO
+- TEMÁTICA_GERAL: É a temática específica da publicação, qual assunto está sendo abordado. Estes são os elementos pelo qual emergiram as discussões sobre o pós-abolição, representam as diversas agências utilizadas para a discussão do campo. Para a lista de temáticas identificadas verificar lista 1.
 
-- ANÁLISE_PÓS-ABOLIÇÃO : Código utilizado para identificar o trecho da publicação que contém o termo e, em qual sentido ele está sendo utilizado. Representa o código central do projeto. Estes códigos foram desenvolvidos a partir de possibilidades de usos percebidos através da leitura da bibliografia. Lista de códigos identificados:
+- ANÁLISE_PÓS-ABOLIÇÃO : Código utilizado para identificar o trecho da publicação que contém o termo e, em qual sentido ele está sendo utilizado. Representa o código central do projeto. Estes códigos foram desenvolvidos a partir de possibilidades de usos percebidos através da leitura da bibliografia e da identificação nos próprios papers. Identificamos os seguintes sentidos:
+- ANÁLISE_PÓS-ABOLIÇÃO::TEMA_CENTRAL: Este código é um marcador para indicar quando a abordagem central do artigo for sobre o pós-abolição, funciona como o código pai dos códigos de análise específica de sentidos do pós-abolição, sendo utilizado juntamente com eles.
 
-	- ANÁLISE_PÓS-ABOLIÇÃO::ASPECTO_POLÍTICO
-	- ANÁLISE_PÓS-ABOLIÇÃO::CAMPO_DE-PESQUISA/ESTUDO
-	- ANÁLISE_PÓS-ABOLIÇÃO::CRÍTICA_DO_TERMO
-	- ANÁLISE_PÓS-ABOLIÇÃO::DEFINIÇÃO_DO_TERMO
-	- ANÁLISE_PÓS-ABOLIÇÃO::EXTINÇÃO_DO_CATIVEIRO 
-	- ANÁLISE_PÓS-ABOLIÇÃO::NOTA_RODAPÉ
-	- ANÁLISE_PÓS-ABOLIÇÃO::PERSPECTIVA_COMPARATIVA
-	- ANÁLISE_PÓS-ABOLIÇÃO::PERSPECTIVA_TEÓRICA
-	- ANÁLISE_PÓS-ABOLIÇÃO::TEMA_CENTRAL
-	- ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL
-	- ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL_CORPO
-	- ANÁLISE_PÓSABOLIÇÃO::TEMA_INCIDENTAL_RODAPE_BIBLIOGRAFIA
+- ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL: Funciona da mesma maneira que o anterior, no entanto, quando a abordagem central do artigo NÃO tratar de pós-abolição, mas o termo for utilizado no texto de forma incidental ou tangencial.
 
-- ELEMENTOS_TEXTUAIS: Identifica os autores e sua formação, a instituição a qual está vinculado, o evento e o título da publicação. Lista de códigos identificados:
+- ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL_CORPO: Este código foi criado apenas para identificar quando o termo for utilizado incidentalmente em citações de títulos ou situações afins ao longo do corpo do texto, em opisição ao código que identifica a citação no rodapé ou na bibliografia.	
+- ANÁLISE_PÓS-ABOLIÇÃO::NOTA_RODAPÉ: quando o termo aparece na nota de rodapé através de uma atrelado aos sentidos de análise.
+-ANÁLISE_PÓSABOLIÇÃO::TEMA_INCIDENTAL_RODAPE_BIBLIOGRAFIA: Este código foi criado para identificar quando o termo for citado na bibliografia ou notas de rodapés sem estar atrelado a nenhum sentido de análise 
 
-	- ELEMENTOS_TEXTUAIS::AUTORIA
-	- ELEMENTOS_TEXTUAIS::EVENTO
-	- ELEMENTOS_TEXTUAIS::EVENTO::XXIX
-	- ELEMENTOS_TEXTUAIS::EVENTO::XXVII
-	- ELEMENTOS_TEXTUAIS::EVENTO::XXVIII
-	- ELEMENTOS_TEXTUAIS::EVENTO::XXX
-	- ELEMENTOS_TEXTUAIS::FORMAÇÃO
-	- ELEMENTOS_TEXTUAIS::INSTITUIÇÃO
-	- ELEMENTOS_TEXTUAIS::TÍTULO
-
-- REC_ESPACIAL – Identifica à localização geográfica na qual a temática geral da publicação está inserida. Lista de códigos identificados:
-
-	- REC_ESPACIAL::ALAGOAS
-	- REC_ESPACIAL::ALAGOINHAS
-	- REC_ESPACIAL::AMARANTE
-	- REC_ESPACIAL::AMAZONAS
-	- REC_ESPACIAL::ARAGUARI
-	- REC_ESPACIAL::AREIA
-	- REC_ESPACIAL::ÁFRICA
-	- REC_ESPACIAL::BAGÉ
-	- REC_ESPACIAL::BAHIA
-	- REC_ESPACIAL::BAIXADA_FLUMINENSE
-	- REC_ESPACIAL::BALNEÁRIO_CAMBORIÚ
-	- REC_ESPACIAL::BARBACENA
-	- REC_ESPACIAL::BARBADOS
-	- REC_ESPACIAL::BELÉM
-	- REC_ESPACIAL::BRASIL
-	- REC_ESPACIAL::CACHOEIRA
-	- REC_ESPACIAL::CACHOEIRA/RS
-	- REC_ESPACIAL::CAETITE
-	- REC_ESPACIAL::CAMPINAS
-	- REC_ESPACIAL::CAMPO_GRANDE
-	- REC_ESPACIAL::CARAVELAS
-	- REC_ESPACIAL::CARIBE
-	- REC_ESPACIAL::CÁCERES
-	- REC_ESPACIAL::CEARÁ
-	- REC_ESPACIAL::CRICIÚMA
-	- REC_ESPACIAL::CUBA
-	- REC_ESPACIAL::CUIABÁ
-	- REC_ESPACIAL::DESTERRO
-	- REC_ESPACIAL::ESPÍRITO_SANTO
-	- REC_ESPACIAL::ESTADOS_UNIDOS
-	- REC_ESPACIAL::FAXINAL_DO_MORRO_ALTO
-	- REC_ESPACIAL::FEIRA_DE_SANTANA
-	- REC_ESPACIAL::FLORIANOPOLIS
-	- REC_ESPACIAL::GOVERNADOR_MANGABEIRA
-	- REC_ESPACIAL::HAITI
-	- REC_ESPACIAL::ILHA_DE_ITAPARICA
-	- REC_ESPACIAL::IPOJUCA
-	- REC_ESPACIAL::ITAGUAÍ
-	- REC_ESPACIAL::JACAREÍ
-	- REC_ESPACIAL::JAGUARÃO
-	- REC_ESPACIAL::JAGUARY
-	- REC_ESPACIAL::LAGUNA
-	- REC_ESPACIAL::LARANJEIRAS
-	- REC_ESPACIAL::LONDRINA
-	- REC_ESPACIAL::MANAUS
-	- REC_ESPACIAL::MARACAS
-	- REC_ESPACIAL::MARAGOGI
-	- REC_ESPACIAL::MARANHÃO
-	- REC_ESPACIAL::MATO_GROSSO
-	- REC_ESPACIAL::MATO_GROSSO_DO_SUL
-	- REC_ESPACIAL::MEARIM
-	- REC_ESPACIAL::MELO/URUGUAI
-	- REC_ESPACIAL::MINAS_GERAIS
-	- REC_ESPACIAL::NATAL
-	- REC_ESPACIAL::NAZARÉ
-	- REC_ESPACIAL::NOVA_IGUAÇÚ
-	- REC_ESPACIAL::PARAIBUNA
-	- REC_ESPACIAL::PARAÍBA
-	- REC_ESPACIAL::PARANÁ
-	- REC_ESPACIAL::PARÁ
-	- REC_ESPACIAL::PELOTAS
-	- REC_ESPACIAL::PERNAMBUCO
-	- REC_ESPACIAL::PIAUÍ
-	- REC_ESPACIAL::PIEDADE_DO_RIO_GRANDE
-	- REC_ESPACIAL::PINDAMONHANGABA
-	- REC_ESPACIAL::PINHEIRO
-	- REC_ESPACIAL::PORTO_ALEGRE
-	- REC_ESPACIAL::QUATIS
-	- REC_ESPACIAL::RECIFE
-	- REC_ESPACIAL::REDENÇÃO
-	- REC_ESPACIAL::RIO_DE_JANEIRO
-	- REC_ESPACIAL::RIO_DE_JANEIRO_ESTADO
-	- REC_ESPACIAL::RIO_G_DO_NORTE
-	- REC_ESPACIAL::RIO_G_DO_SUL
-	- REC_ESPACIAL::RIO_GRANDE
-	- REC_ESPACIAL::SALVADOR
-	- REC_ESPACIAL::SANTA CATARINA
-	- REC_ESPACIAL::SANTIAGO_DO_IGUAPE
-	- REC_ESPACIAL::SANTO_ANTONIO_DE_JESUS
-	- REC_ESPACIAL::SANTOS
-	- REC_ESPACIAL::SAO_JOSE_DOS_CAMPOS
-	- REC_ESPACIAL::SÃO_CARLOS
-	- REC_ESPACIAL::SÃO_LUÍS
-	- REC_ESPACIAL::SÃO_PAULO
-	- REC_ESPACIAL::SÃO_PAULO_ESTADO
-	- REC_ESPACIAL::SERGIPE
-	- REC_ESPACIAL::SERRINHA
-	- REC_ESPACIAL::SERTÃO_BAHIANO
-	- REC_ESPACIAL::TACUAREMBÓ/URUGUAI
-	- REC_ESPACIAL::TAUBATÉ
-	- REC_ESPACIAL::TRAIRAS
-	- REC_ESPACIAL::URUGUAI
-	- REC_ESPACIAL::VALE_DO_GUAPORÉ
-	- REC_ESPACIAL::VALE_DO_PARAÍBA
-	- REC_ESPACIAL::VITÓRIA_DA_CONQUISTA
-	- REC_ESPACIAL::VOLTA_REDONDA
-
-- REC_TEMPORAL – Refere-se ao tempo cronológico no qual a temática está situada. Não foi possível criar um padrão através da cronologia histórica, pois, a definição temporal para os períodos por vezes não se enquadrou no tempo percorrido pelas publicações, o que nos levou a construir o recorte por século. Lista de códigos identificados:
+- ANÁLISE_PÓS-ABOLIÇÃO::ASPECTO_POLÍTICO : Identifica se há análise ou categorização dos usos políticos do termo.
+- ANÁLISE_PÓS-ABOLIÇÃO::CAMPO_DE-PESQUISA/ESTUDO: Mostra o pós-abolição como um campo de pesquisa acadêmico.
+- ANÁLISE_PÓS-ABOLIÇÃO::CRÍTICA_DO_TERMO: Quando é feita uma análise crítica do termo.
+- ANÁLISE_PÓS-ABOLIÇÃO::DEFINIÇÃO_DO_TERMO: Quando há definição ou explicação do termo.
+- ANÁLISE_PÓS-ABOLIÇÃO::EXTINÇÃO_DO_CATIVEIRO: Código que identifica o pós-abolição como a mudança jurídica que destitui a propriedade legal sobre o indivíduo negro fazendo um contrapondo escravidão e  liberdade.
+- ANÁLISE_PÓS-ABOLIÇÃO::PERSPECTIVA_COMPARATIVA: Quando há comparação com outros termos.
+- ANÁLISE_PÓS-ABOLIÇÃO::PERSPECTIVA_TEÓRICA: Esse código foi criado para os trechos que contém o termo porém não o definem, utilizando-o enquanto um conjunto de elementos.
 	
-	- REC_TEMPORAL::SEC_XVI
-	- REC_TEMPORAL::SEC_XVII
-	- REC_TEMPORAL::SEC_XVIII
-	- REC_TEMPORAL::SEC_XIX
-	- REC_TEMPORAL::SEC_XX
-	- REC_TEMPORAL::SEC_XXI
 
-Vale destacar, que parte dos códigos foram desenvolvidos de maneira dinâmica à medida que fomos identificando os elementos nos papers.
+- ELEMENTOS_TEXTUAIS: Identifica os autores e sua formação, a instituição a qual está vinculado, o evento e o título da publicação. O conjunto de códigos poderá ser identificado na lista 2.
+
+- REC_ESPACIAL – Identifica à localização geográfica na qual a temática geral da publicação está inserida. Ver lista 3.
+
+- REC_TEMPORAL – Refere-se ao tempo cronológico no qual a temática está situada. Não foi possível criar um padrão através da cronologia histórica, pois, a definição temporal para os períodos por vezes não se enquadrou no tempo percorrido pelas publicações, o que nos levou a construir o recorte por século. Códigos disponíveis na lista 4.
+
+Queremos destacar que os códigos foram desenvolvidos de maneira dinâmica e, embora as leituras bibliográficas tenham nos ajudado a construir o arcabouço inicial da codificação, outros elementos foram emergindo à medida que fomos analisando os papers, assim, para que pudéssemos construir um conjunto de códigos coeso foi necessário que fizéssemos a leitura próxima e a análise de todas as 185 publicações, o que mostra a importância de uma combinação de leitura computadorizada (raspagem, filtragem + auto-coding)  associada a análise qualitativa humana a partir da leitura para compreensão do contexto, dada a  subjetividade da linguagem. Embora julguemos importante a incorporação do Processamento de Linguagem Natural (NLP) à pesquisa qualitativa, compreendemos ser um processo complexo que envolve conhecimento e específicos e maior criticidade, os quais ainda não dispomos nesse momento.
 
 [***Explicar como foi o processo de codificação: valorizar o fato de você ter lido e analisado os papers para poder aplicar os códigos de maneira coerente. Esse processo de leitura próxima foi muito importante e mostra a combinação entre leitura computadorizada (raspagem, filtragem + auto-coding) e leitura próxima qualitativa humana.***]
 
-Finalizado o processo de codificação, geramos tabelas com os dados quantitativos compilados pelo atlas.ti 7, em seguida passamos a analisar os dados.
+Ao finalizar a codificação, geramos arquivos do tipo csv(Comma-separated value), formato escolhido devido a portabilidade entre diversos sistemas e plataformas, que consistem em um arquivo com ordenação própria que usa vírgulas como separador, os quais foram utilizados como um dataset para a base de dados dos gráficos que foram gerados pelo professor Eric Brasil com o pandas, que é uma biblioteca de código aberto, utilizada em IDE’s de linguagem python para análise de dados, onde são convertidos e dispostos em formas tabulares, constituindo um dataframe(assemelha-se a uma tabela). Estes gráficos compõem parte dos anexos que ilustram a monografia.
 
-A partir desses dados, foram gerados gráficos pelo professor Eric Brasil com o pandas, que é uma biblioteca (conjunto de funções e métodos que compõem um módulo para ser utilizado no desenvolvimento de códigos de programação) de código aberto, utilizada em IDE’s da linguagem python para análise de dados, onde são convertidos e dispostos em formas tabulares, constituindo um dataframe. Estes gráficos compõem parte dos anexos que ilustram a pesquisa.
+Todos os dados e informações da pesquisa encontram-se no Github, que usamos para hospedar os dados e para gerenciar o desenvolvimento deste trabalho. O GitHub é uma plataforma gratuita e de código aberto que usa o GIT como controlador de versões, que permite a criação de repositórios ilimitados versionando arquivos de diferentes formatos. Como o GIT é um controlador de versões distribuído, possibilitando trabalhar por *branches* (ramificações), confere maior agilidade e segurança para o fluxo de trabalho e para o backup de dados. Possibilita trabalho interativo e remoto entre grupos, além das opções de controlar o acesso aos dados, com público ou privado. Os dados podem ser acessados no GitHub na página do projeto PIBIC em: <https://github.com/ericbrasiln/pibic_2020-2021/tree/main/EDITAL_UNILAB>. 
+Optamos por tornar os dados públicos por acreditarmos na importância do desenvolvimento de pesquisas em diálogo com a ciência aberta como um dos caminhos para tornar o desenvolvimento epistêmico menos generalista e autoritário. O acesso aos dados da pesquisa colaboram para diminuir a possibilidade de conclusões históricas generalizadas que apontam mais para as intenções políticas do historiador do que para análise das fontes em si, além de diminuir o privilégio do acesso as mesmas(CARDOSO et al., 2021).
 
-Todos os dados e informações da pesquisa encontram-se no Github, que usamos para hospedar os dados utilizados na pesquisa e para gerenciar o desenvolvimento deste trabalho. O GitHub é uma plataforma gratuita e de código aberto que usa o GIT como controlador de versões, que permite a criação de repositório ilimitados versionando arquivos de diferentes formatos. Pelo git ser um controlador de versões distribuído, possibilitando trabalhar por *branches* (ramificações), confere maior agilidade e segurança para o fluxo de trabalho e para o backup de dados. Possibilita trabalho interativo e remoto entre grupos, além das opções de controlar o acesso aos dados, com público ou privado. Os dados podem ser acessados no GitHub na página do projeto PIBIC em: <https://github.com/ericbrasiln/pibic_2020-2021/tree/main/EDITAL_UNILAB>.
-
-A codificação no Atlas.ti7 resultou em uma árvore de códigos, composta por cinco famílias. Sendo elas:
-
-- ANÁLISE_PÓS_ABOLIÇÃO: Famílias de códigos voltados para análise dos sentidos do termo pós-abolição, representa a etiqueta principal da análise. Diante da complexidade de identificar o tema de maneira mais precisa e para atendermos as diversas possibilidades de utilização do termo pelos autores encontradas nos papers, construímos códigos filhos e códigos netos.
-- ELEMENTOS_TEXTUAIS: Família de códigos que identificam os elementos textuais, sendo eles os autores, formação, instituição, evento e título da publicação.
-- REC_ESPACIAL: Família de código que identifica os espaços geográficos onde se desenvolve o tema central.
-- REC_TEMPORAL: Família de código que representa o recorte temporal da pesquisa, o período que o tema central está se referindo. 
-- TEMÁTICA_GERAL: Família de código que define o tema ou os temas que está sendo apresentado.
-
-Esse conjunto de códigos, identificou os elementos que utilizaremos para analisar de que maneira o pós-abolição está sendo tratado nos papers, traçar o perfil dos autores e instituições e, identificar as principais temáticas e períodos. Buscamos com isto, colaborar com o debate sobre como este campo historiográfico vem se consolidando e, construir perguntas sobre quais caminhos os autores tem percorridos para tal diálogo.
-
-Identificamos um total de 173 autores, 53 instituições de ensino, 97 temáticas, 5 períodos (recortes temporais), 96 espaços geográficos (recortes espaciais) e 373 vezes a utilização do termo pós-abolição. 
-
-No capítulo seguinte, faremos uma breve análise dos dados.
