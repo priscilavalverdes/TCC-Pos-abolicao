@@ -22,7 +22,7 @@ Por se tratar de uma monografia com foco historiográfico, nos apropriamos das d
 
 Como apontou Marc Bloch em *Apologia da História ou o Oficio do Historiador*, a história se faz a partir dos vestígios deixados pelo homem (BLOCH, 2002). Hoje encontramos vestígios de uma sociedade cada vez mais informatizada, onde cada um de nós produz rastros digitais cotidianamente, o que leva a uma dataficação da vida social (SOUTHERTON, Clare. Datafication. In: SCHINTLER, Laurie A.; MCNEELY, Connie L. (Orgs.). Encyclopedia of Big Data. Cham: Springer International Publishing, 2020, p. 1–4). Assim, buscamos refletir sobre as possibilidades de levantar novos questionamentos a partir da utilização de ferramentas digitais como parte metodológica da escrita da história, especificamente do Pós-abolição.
 
-Para tanto, utilizaremos um *dataset* composto de 183 *papers* em formato PDF, e analisaremos com o software de apoio a pesquisa qualitativa *ATLAS.ti 7* buscando compreender de que maneira o pós-abolição tem sido tratado nos Simpósios Nacioanais de História da ANPUH.
+Para tanto, utilizaremos um *dataset* composto de 185 *papers* em formato PDF, e analisaremos com o software de apoio a pesquisa qualitativa *ATLAS.ti 7* buscando compreender de que maneira o pós-abolição tem sido tratado nos Simpósios Nacioanais de História da ANPUH.
 
 A monografia está dividida em três capítulos. No primeiro capítulo, situamos o tempo histórico do qual a pesquisa pretende tratar, a fonte utilizada, caracterizamos a ANPUH e refletimos sobre o que é o pós-abolição para a historiografia recente apoiados em autores como Sidney Chaloub, Petrônio Domingues e Flávio Gomes, Eric Brasil, Fernanda Oliveira, Wlamyra Albuquerque, João Reis e Eduardo Silva, Álvaro Nascimento. O segundo capítulo está dividido em duas partes. Na primeira, conceituamos o que entendemos ser a História Digital, discutimos sobre fontes e a utilização de dados digitais na pesquisa historiográfica, usando como referência Helyom Telles, Marc Bloch, Eric Brasil e Leonardo Nascimento, Anita Lucchesi, Mattew Salganik, Helle Jensen e Adam Crymble. No terceiro capítulo, iremos apresentar os dados quantitativos e apontaremos algumas conclusões por acreditarmos ser importante apresentar os dados resultantes mesmo que a partir de uma breve análise qualitativa.
 
@@ -186,7 +186,7 @@ Em seguida, elaboramos a árvore de códigos que refletem nossas compreensões t
 
 Na árvore, é possível criar diferentes famílias de códigos. As famílias tem como objetivo agrupar códigos que estão vinculados a uma mesma temática. Assim, utilizamos códigos pais, que estão no topo dessa árvore, códigos filhos e, em alguns casos, códigos netos. Ambos são a ramificação de um código pai, e representam parte de uma mesma família, podendo também manter relações com códigos de outras famílias. São eles:
 
-- **TEMÁTICA_GERAL**: É a temática específica da publicação, qual assunto está sendo abordado. Estes são os elementos pelo qual emergiram as discussões sobre o pós-abolição, e representam as diversas agências utilizadas para a discussão do campo. Para a lista de temáticas identificadas verificar imagem 1.
+- **TEMÁTICA_GERAL**: É a temática específica da publicação, qual assunto está sendo abordado. Estes são os elementos pelo qual emergiram as discussões sobre o pós-abolição, e representam as diversas agências utilizadas para a discussão do campo. 
 
 - **ANÁLISE_PÓS-ABOLIÇÃO**: Código utilizado para identificar o trecho da publicação que contém o termo e, em qual sentido ele está sendo utilizado. Representa o código central do projeto. Estes códigos foram desenvolvidos a partir de possibilidades de usos percebidos através da leitura da bibliografia e da identificação nos próprios papers. Identificamos os seguintes sentidos:
   
@@ -214,23 +214,23 @@ Na árvore, é possível criar diferentes famílias de códigos. As famílias te
 
 - **ANÁLISE_PÓS-ABOLIÇÃO::PERSPECTIVA_TEÓRICA**: Esse código foi criado para os trechos que contém o termo porém não o definem, utilizando-o enquanto um conjunto de elementos.	
 
-- **ELEMENTOS_TEXTUAIS**: Identifica os autores e sua formação, a instituição a qual está vinculado, o evento e o título da publicação. O conjunto de códigos poderá ser identificado na imagem 2.
+- **ELEMENTOS_TEXTUAIS**: Identifica os autores e sua formação, a instituição a qual está vinculado, o evento e o título da publicação. 
 
-- **REC_ESPACIAL** – Identifica à localização geográfica na qual a temática geral da publicação está inserida. Ver imagem 3.
+- **REC_ESPACIAL** – Identifica à localização geográfica na qual a temática geral da publicação está inserida.
 
-- **REC_TEMPORAL** – Refere-se ao tempo cronológico no qual a temática está situada. Não foi possível criar um padrão através da cronologia histórica, pois, a definição temporal para os períodos por vezes não se enquadrou no tempo percorrido pelas publicações, o que nos levou a construir o recorte por século. Códigos disponíveis na imagem 4.
+- **REC_TEMPORAL** – Refere-se ao tempo cronológico no qual a temática está situada. Não foi possível criar um padrão através da cronologia histórica, pois, a definição temporal para os períodos por vezes não se enquadrou no tempo percorrido pelas publicações, o que nos levou a construir o recorte por século.
 
-Queremos destacar que os códigos foram desenvolvidos de maneira dinâmica e, embora as leituras bibliográficas tenham nos ajudado a construir o arcabouço inicial da codificação, outros elementos foram emergindo à medida que fomos analisando os papers, assim, para que pudéssemos construir um conjunto de códigos coeso foi necessário que fizéssemos a leitura próxima e a análise de todas as 183 publicações, o que mostra a importância de uma combinação de leitura computadorizada (raspagem, filtragem + auto-coding)  associada a análise qualitativa humana a partir da leitura para compreensão do contexto, dada a  subjetividade da linguagem. Embora julguemos importante a incorporação do Processamento de Linguagem Natural (NLP) à pesquisa qualitativa, método ainda distante da realidade historiográfica brasileira, compreendemos ser um processo complexo que envolve conhecimento e específicos e maior criticidade, os quais ainda não dispomos nesse momento.
+Queremos destacar que os códigos foram desenvolvidos de maneira dinâmica e, embora as leituras bibliográficas tenham nos ajudado a construir o arcabouço inicial da codificação, outros elementos foram emergindo à medida que fomos analisando os papers, assim, para que pudéssemos construir um conjunto de códigos coeso foi necessário que fizéssemos a leitura próxima e a análise de todas as 185 publicações, o que mostra a importância de uma combinação de leitura computadorizada (raspagem, filtragem + auto-coding)  associada a análise qualitativa humana a partir da leitura para compreensão do contexto, dada a  subjetividade da linguagem. Embora julguemos importante a incorporação do Processamento de Linguagem Natural (NLP) à pesquisa qualitativa, método ainda distante da realidade historiográfica brasileira, compreendemos ser um processo complexo que envolve conhecimento e específicos e maior criticidade, os quais ainda não dispomos nesse momento.
 
 Ao finalizar a codificação, geramos arquivos do tipo csv (*Comma-separated value*), formato escolhido devido a portabilidade entre diversos sistemas e plataformas, que consistem em um arquivo com ordenação própria que usa vírgulas como separador (KARSDORP, Folgert; KESTEMONT, Mike; RIDDELL, Allen. Humanities data analysis: case studies with Python. Princeton: Princeton University Press, 2021. p.36). Os quais foram utilizados como um dataset para a base de dados dos gráficos que foram gerados pelo professor Eric Brasil com o pandas, que é uma biblioteca de código aberto, utilizada em IDE’s de linguagem python para análise de dados, onde são convertidos e dispostos em formas tabulares, constituindo um *dataframe* (assemelha-se a uma tabela). Estes gráficos compõem parte dos anexos que ilustram a monografia.
 
-Todos os dados e informações da pesquisa encontram-se no Github. O GitHub é uma plataforma gratuita e de código aberto, de repositório ilimitado, com um *workflow* próprio, que te permite trabalhar de forma colaborativa, gerando transparência tanto na apresentação dos resultados como no processo de desenvolvimento da pesquisa, permite  manter os dados para acesso futuro desde a primeira inserção, com acompanhamento das modificações, além de possuir diversas funcionalidades para gerenciamento de projetos como  as mensagens de *commit* que permitem documentar a pesquisa, o *readme.md* que permite uma visualização (apresentação) inicial da pesquisa e criação de planos de trabalhos específicos que podem ser automatizados conforme as tarefas (*issues*) forem sendo modificadas. Como o GIT é um controlador de versões distribuído, possibilitando trabalhar por branches (ramificações com snapshot de todo o repositório em um dado momento que são armazenados localmente), confere maior agilidade e segurança para o fluxo de trabalho e para o backup de dados. Embora seja uma ferramenta que foi inicialmente desenvolvida para ser utilizada por programadores e demande uma curva de aprendizagem maior, é uma alternativa altamente eficiente para o armazenamento, controle e gerenciamento de projetos das diversas áreas.
+Todos os dados e informações da pesquisa encontram-se no Github. O GitHub é uma plataforma gratuita e de código aberto, de repositório ilimitado, com um *workflow* próprio, que te permite trabalhar de forma colaborativa, gerando transparência tanto na apresentação dos resultados como no processo de desenvolvimento da pesquisa, permite  manter os dados para acesso futuro desde a primeira inserção, com acompanhamento das modificações, além de possuir diversas funcionalidades para gerenciamento de projetos como  as mensagens de *commit* que permitem documentar a pesquisa, o *readme.md* que permite uma visualização (apresentação) inicial da pesquisa e criação de planos de trabalhos específicos que podem ser automatizados conforme as tarefas (*issues*) forem sendo modificadas. Como o GIT é um controlador de versões distribuído, possibilitando trabalhar por branches (ramificações com snapshot de todo o repositório em um dado momento que são armazenados localmente), confere maior agilidade e segurança para o fluxo de trabalho e para o backup de dados, além de permitir a recuperação de qualquer versão. Embora seja uma ferramenta que foi inicialmente desenvolvida para ser utilizada por programadores e demande uma curva de aprendizagem maior, é uma alternativa altamente eficiente para o armazenamento, controle e gerenciamento de projetos das diversas áreas.
 
 Os dados referente ao projeto “Pós-abolição: usos, sentidos e produções acadêmicas 2004-2019”, analizados aqui, podem ser acessados no GitHub na página do projeto PIBIC em: <https://github.com/ericbrasiln/pibic_2020-2021/tree/main/EDITAL_UNILAB> e os gráficos interativos e outros recursos pode ser visto aqui: https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/
 
 Optamos por tornar os dados dessa monografia públicos por acreditarmos na importância do desenvolvimento de pesquisas em diálogo com a ciência aberta como um dos caminhos para tornar o desenvolvimento epistêmico menos generalista e autoritário. O acesso aos dados da pesquisa colaboram para diminuir a possibilidade de conclusões históricas generalizadas que apontam mais para as intenções políticas do historiador do que para análise das fontes em si, além de diminuir o privilégio do acesso as mesmas(CARDOSO et al., 2021).
 
-Assim, todo o processo de escrita da monografia foi registrado e comentado utilizando sistema de controle de versões com Git e hospedado no repositório remoto no GitHub, que pode ser acessado aqui: https://github.com/priscilavalverdes/TCC-Pos-abolicao. O histórico com todas as alterações podem ser recuperados.
+Assim, todo o processo de escrita da monografia foi registrado e comentado utilizando sistema de controle de versões com Git e hospedado no repositório remoto no GitHub, que pode ser acessado aqui: https://github.com/priscilavalverdes/TCC-Pos-abolicao. O histórico com todas as alterações podem ser recuperadas.
 
 Embora entendamos que uma análise detalhada dos dados seja um procedimento que demanda um tempo maior, faremos no capítulo a seguir a apresentação dos dados quantitativos e uma breve breve análise qualitativa com maior atenção ao uso do termo pós-abolição.
 
@@ -240,7 +240,7 @@ A codificação no Atlas.ti 7 resultou na árvore de códigos composta por cinco
 
 Identificamos com eles um total de 173 autores, 53 instituições de ensino, 97 temáticas, 5 períodos (recortes temporais), 96 espaços geográficos (recortes espaciais) e 373 ocorrências da utilização do termo pós-abolição. Buscamos com isto, construir caminhos para a reflexão sobre como este campo historiográfico vem se consolidando nos simpósios da ANPUH e, consequentemente na historiografia nacional além de construir perguntas sobre quais caminhos os autores tem percorrido para tal diálogo.
 
-Como já mencionado, no primeiro dataset filtrado a partir de 2013, resultaram 6.434 publicações completas, no dataset final, após o recorte ser feito pelo termo, conforme especificado na metodologia, foram identificados 183 papers, o que representa do total 2.8% das publicações entre 2013 e 2019 no Simpósio Nacional da ANPUH. Destas 183 publicações, 7 papers estavam duplicados e 1 vazio, resultando em 175 papers a serem analisados.
+Como já mencionado, no primeiro dataset filtrado a partir de 2013, resultaram 6.434 publicações completas, no dataset final, após o recorte ser feito pelo termo, conforme especificado na metodologia, foram identificados 185 papers, o que representa do total 2.8% das publicações entre 2013 e 2019 no Simpósio Nacional da ANPUH. Destas 185 publicações, 7 papers estavam duplicados e 1 vazio, resultando em 177 papers a serem analisados.
 
 A primeira informação que buscamos identificar foi se o paper estava tratando sobre o pós-abolição enquanto tema central ou se o termo havia sido mencionado de maneira incidental. Para isso, criamos alguns critérios de identificação: a) Se o termo estava sendo utilizado no título da publicação; b) Se o autor expressava no texto que a partir daquele elemento apresentado ele buscava discutir sobre o pós-abolição mesmo o termo não sendo apresentado no título do paper e c) Se o texto estava discutindo especificamente sobre o pós abolição. Não havendo enquadramento do paper em ao menos um dos critérios anteriores, este foi codificado como tema incidental.
 
@@ -260,41 +260,42 @@ Referente ao evento XXVII, identificamos 60 papers com o termo; para o Evento XX
 **2. Instituições e autores:**
 
 Para caracterizar o perfil dos autores e instituições, nós criamos os códigos ELEMENTOS_TEXTUAIS::FORMAÇÃO, ELEMENTOS_TEXTUAIS::INSTITUIÇÃO e ELEMENTOS_TEXTUAIS::AUTORIA. Ambos são códigos filhos do código ELEMENTOS_TEXTUAIS.
-Identificamos um total de 173 autores, nos papers que tinha o pós-abolição como tema central, encontramos referente a formação: 2 graduandos, 2 graduados, 20 mestrandos, 11 mestre, 36 doutorandos, 14 doutores, 3 pós-doutorandos, 2 pós-doutores, nenhum especialista e 4 autores não tiveram formação identificada. Nos de tema incidental, verificamos: 1 graduando, 6 graduados, 24 mestrandos, 15 mestres, 28 doutorandos, 14 doutores, 2 pós-doutorandos, 1 especialista, nenhum pós-doutor e 3 autores não tiveram a formação identificada. Previsão de 3% de margem de erro devido às publicações repetidas. Ver gráfico 1. Gráfico interativo disponível em: https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/formacao.png. [não é melhor esse link aqui: https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/formacao.html]
+Identificamos um total de 173 autores, nos papers que tinha o pós-abolição como tema central, encontramos referente a formação: 2 graduandos, 2 graduados, 20 mestrandos, 11 mestre, 36 doutorandos, 14 doutores, 3 pós-doutorandos, 2 pós-doutores, nenhum especialista e 4 autores não tiveram formação identificada. Nos de tema incidental, verificamos: 1 graduando, 6 graduados, 24 mestrandos, 15 mestres, 28 doutorandos, 14 doutores, 2 pós-doutorandos, 1 especialista, nenhum pós-doutor e 3 autores não tiveram a formação identificada. Previsão de 3% de margem de erro devido às publicações repetidas. Ver gráfico 1. Gráfico interativo disponível em: <https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/formacao.html>.
 
-Das 53 instituições, referente aos papers identificados como tema central, encontramos o seguinte quantitativo: IFBA(1), UEFS(1), PUC/RIO(1), UDESC(1), UERJ (2), UESC(1), UEMG(1), UFF(12), UFBA (2), UFPB(2), UFAM(1), UFRJ(3), UFRGS(4), UFRRJ(5), UFS(3), UFSC(3), UFSCAR(1), UFSJ(1), UNEB(3), UNEMAT(1), UNESP(1), USP(2), UNIRIO(2), UNIFESP(3), UNICAMP(4), UNIRIO(1), UNIVAP(1), UNISANTOS(1), UNISINOS(1). Nos identificados como tema incidental encontramos: IFPE(1), IFBA(1), IFAL(1), NYU(1), PUC/RIO(3),   PUC/SP(3), UDESC(2), UEL(1), UECE(1), UERJ(3), UEM(1), UFAC(1), UEPG(1), UFAM(1), UFERSA(1), UFBA(3), UFF(7), UFBPR(1), UFES(1), UFFRJ(1), UFJF(4), UFPE(6), UFMS(1), UFPA(1), UFGD(2), UFMT(1), UFPE(6), UFRJ(3), UFPA(1), UFRPE(3), UFRGS(2), UFPEL(1), UFPR(2), UNEB(6), UFSC(3), (4) UFRRJ, UNEAL(1), UFSJ(1), USP(4), UNIRIO(3), UNICAMP(2),  UNILAB(1),  UNISINOS(1), UNITAU(3), UNESP(1), USS(1). Ver gráfico 2. Gráfico interativo disponível em:< https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/instituicoes.png>. https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/instituicoes.html
+Das 53 instituições, referente aos papers identificados como tema central, encontramos o seguinte quantitativo: IFBA(1), UEFS(1), PUC/RIO(1), UDESC(1), UERJ (2), UESC(1), UEMG(1), UFF(12), UFBA (2), UFPB(2), UFAM(1), UFRJ(3), UFRGS(4), UFRRJ(5), UFS(3), UFSC(3), UFSCAR(1), UFSJ(1), UNEB(3), UNEMAT(1), UNESP(1), USP(2), UNIRIO(2), UNIFESP(3), UNICAMP(4), UNIRIO(1), UNIVAP(1), UNISANTOS(1), UNISINOS(1). Nos identificados como tema incidental encontramos: IFPE(1), IFBA(1), IFAL(1), NYU(1), PUC/RIO(3),   PUC/SP(3), UDESC(2), UEL(1), UECE(1), UERJ(3), UEM(1), UFAC(1), UEPG(1), UFAM(1), UFERSA(1), UFBA(3), UFF(7), UFBPR(1), UFES(1), UFFRJ(1), UFJF(4), UFPE(6), UFMS(1), UFPA(1), UFGD(2), UFMT(1), UFPE(6), UFRJ(3), UFPA(1), UFRPE(3), UFRGS(2), UFPEL(1), UFPR(2), UNEB(6), UFSC(3), (4) UFRRJ, UNEAL(1), UFSJ(1), USP(4), UNIRIO(3), UNICAMP(2),  UNILAB(1),  UNISINOS(1), UNITAU(3), UNESP(1), USS(1). Ver gráfico 2. Gráfico interativo disponível em:
+<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/instituicoes.html>.
 
 **3. Recorte temporal:**
 
-Inicialmente prevemos fazer o recorte temporal conforme os tempos históricos, no entanto, ao percebermos que os papers muitas vezes tratavam de um tempo que não se enquadrava no tempo cronológico do tempo histórico, julgamos fazer o recorte temporal por séculos. Assim, criamos códigos para os séculos, XVII(1), XVIII(1), XIX(95), XX(106), XXI(30). Sendo que os papers de tema central trataram sobre os séculos XIX(46), XX(59), XXI(2) e os de tema incidental  trataram sobre os séculos XVII(1), XVIII(1), XIX(48), XX(46), XXI(29). Ver gráfico 3. Versão interativa disponível em:< https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tem.png>.  
+Inicialmente prevemos fazer o recorte temporal conforme os tempos históricos, no entanto, ao percebermos que os papers muitas vezes tratavam de um tempo que não se enquadrava no tempo cronológico do tempo histórico, julgamos fazer o recorte temporal por séculos. Assim, criamos códigos para os séculos, XVII(1), XVIII(1), XIX(95), XX(106), XXI(30). Sendo que os papers de tema central trataram sobre os séculos XIX(46), XX(59), XXI(2) e os de tema incidental  trataram sobre os séculos XVII(1), XVIII(1), XIX(48), XX(46), XXI(29). Ver gráfico 3. Versão interativa disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_tem.html>.  
 
 **4. Recorte espacial:**
 
-Os dez principais espaços identificados pela análise entre as publicações de tema central e incidental são:  Brasil(33), Rio de Janeiro(19), Estado do Rio de Janeiro(20), Bahia(20), São Paulo(8), Estado de São Paulo(14),Santa Catarina(9), Minas Gerais(11), Rio Grande do Sul(8), Sergipe(3). Ver gráfico 4. Gráfico interativo disponível em:< https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_esp_10.png>.
+Os dez principais espaços identificados pela análise entre as publicações de tema central e incidental são:  Brasil(33), Rio de Janeiro(19), Estado do Rio de Janeiro(20), Bahia(20), São Paulo(8), Estado de São Paulo(14),Santa Catarina(9), Minas Gerais(11), Rio Grande do Sul(8), Sergipe(3). Ver gráfico 4. Gráfico interativo disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_esp_10.html>.
 
-Nos papers de tema central identificamos o seguinte quantitativo:  Brasil(7), Rio de Janeiro(13), Estado do Rio de Janeiro(10), Bahia(9), São Paulo(4), Estado de São Paulo(8),Santa Catarina(5), Minas Gerais(5), Rio Grande do Sul(4), Sergipe(3). Ver gráfico 5. Gráfico interativo disponível em:< https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_esp_10_central.png>.
+Nos papers de tema central identificamos o seguinte quantitativo:  Brasil(7), Rio de Janeiro(13), Estado do Rio de Janeiro(10), Bahia(9), São Paulo(4), Estado de São Paulo(8),Santa Catarina(5), Minas Gerais(5), Rio Grande do Sul(4), Sergipe(3). Ver gráfico 5. Gráfico interativo disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_tema_10_central.html>.
 
-Para os de tema incidental, identificamos: Brasil(26), Rio de Janeiro(6), Estado do Rio de Janeiro(10), Bahia(11), São Paulo(4), Estado de São Paulo(6), Pernambuco(5), Santa Catarina(4), Minas Gerais(6) e Rio Grande do Sul(4). Ver Gráfico 6. Versão interativa disponível em:<  https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_esp_10_incidental.png>.
+Para os de tema incidental, identificamos: Brasil(26), Rio de Janeiro(6), Estado do Rio de Janeiro(10), Bahia(11), São Paulo(4), Estado de São Paulo(6), Pernambuco(5), Santa Catarina(4), Minas Gerais(6) e Rio Grande do Sul(4). Ver Gráfico 6. Versão interativa disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_esp_10_incidental.html>.
 
 **reajustar conforme novo gráfico com dataset limpo**
 
 **5. Recorte Temático:**
 
-Analisados em conjunto, os papers de tema central e incidental apresentam dez temáticas mais relevantes, sendo:  trabalho(30), memória(29), raça(17), trajetória masculina(15), associativismo(14), identidade(14), performances culturais(12), intelectualidade(11), racialização(9), e família(7). Ver gráfico 7. Versão interativa disponível em:< https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tema_10.png>.
+Analisados em conjunto, os papers de tema central e incidental apresentam dez temáticas mais relevantes, sendo:  trabalho(30), memória(29), raça(17), trajetória masculina(15), associativismo(14), identidade(14), performances culturais(12), intelectualidade(11), racialização(9), e família(7). Ver gráfico 7. Versão interativa disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_tema_10.html>.
 
-As dez temáticas das publicações de tema central são: trabalho(16), memória(12), trajetória masculina(10), associativismo(9), raça(8), performances culturais(7), racialização(6), identidade(5), intelectualidade(5) e família(4). Ver gráfico 8. Versão interativa disponível em:< https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tema_10_central.png>.
+As dez temáticas das publicações de tema central são: trabalho(16), memória(12), trajetória masculina(10), associativismo(9), raça(8), performances culturais(7), racialização(6), identidade(5), intelectualidade(5) e família(4). Ver gráfico 8. Versão interativa disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_tema_10_central.html>.
 
-As dez temáticas das publicações de tema incidental são: Educação(20), memória(17), Trabalho (14), Lei 10639/11645(12), Identidade (9), Raça(9), Ensino de História(9), Quilombos(7), intelectualidade(6), Periódicos(6). Gráfico 9. Versão interativa disponível em:https://github.com/ericbrasiln/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tema_10_incidental.png.
+As dez temáticas das publicações de tema incidental são: Educação(20), memória(17), Trabalho (14), Lei 10639/11645(12), Identidade (9), Raça(9), Ensino de História(9), Quilombos(7), intelectualidade(6), Periódicos(6). Gráfico 9. Versão interativa disponível em: <https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_tema_10_incidental.html>
 
 **6. Pós-abolição:**
 
 Nestes 175 papers, o termo foi mencionado 373 vezes, sendo 249 identificados nas publicações no qual o pós-abolição representa o tema central (ANÁLISE_PÓS-ABOLIÇÃO::TEMA_CENTRAL) e 124 vezes em que representa o tema incidental (ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL). Para dar mais especificidade a análise, criamos ainda os códigos ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL_CORPO e ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL_RODAPE_BIBLIOGRAFIA para identificação em caso de menção do termo incidentalmente, como nas notas bibliográficas, em títulos de publicações, leis, etc. E ainda, a etiqueta ANÁLISE_PÓS-ABOLIÇÃO::NOTA_RODAPÉ, para especificar a utilização do termo em notas explicativas de rodapé. Como se tratava de contabilizar a incidência dos termos, esta divisão fez-se necessária para dar suporte às reflexões sobre o quantitativo de publicações com ocorrência do termo principalmente nas identificadas como tema incidental.
 
-Para a definição da árvore de código da família ANÁLISE_PÓS_ABOLIÇÃO, que constitui a análise central, buscamos sistematizar possíveis usos do termo conforme as discussões próprias do campo. Assim, criamos códigos que pudessem identificar o termo sendo utilizado com sentido: político, comparativo, campo de pesquisa, critica do termo, definição do termo, extinção do cativeiro, perspectiva comparativa e perspectiva teórica. Ver gráfico 10. Gráfico interativo disponível  em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/NETWORK_AN%C3%81LISE_P%C3%93S-ABOLI%C3%87%C3%83O.png>.
+Para a definição da árvore de código da família ANÁLISE_PÓS_ABOLIÇÃO, que constitui a análise central, buscamos sistematizar possíveis usos do termo conforme as discussões próprias do campo. Assim, criamos códigos que pudessem identificar o termo sendo utilizado com sentido: político, comparativo, campo de pesquisa, critica do termo, definição do termo, extinção do cativeiro, perspectiva comparativa e perspectiva teórica. Ver gráfico 10. Gráfico interativo disponível  em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_analise.html> .
 
-Para os papers identificados como tema central, a análise resultou em 249 citações com sentido teórico (PERSPECTIVA_TEÓRICA), 7 como definição do termo (DEFINIÇÃO_DO_TERMO), 7 como extinção do cativeiro (EXTINSÃO_DO_CATIVEIRO) e 5 como (CAMPO_DE_PESQUISA_ESTUDO); não sendo utilizado como aspecto político (ASPECTO_POLÍTICO), crítica do termo(CRÍTICA_DO_TERMO), nem perspectiva comparativa (PERSPECTIVA_COMPARATIVA). Dentre as citações, 11 ocorrências estavam na nota de rodapé. Ver gráfico 11. Gráfico interativo disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_analise_central.html>.
+Para os papers identificados como tema central, a análise resultou em 249 citações com sentido teórico (PERSPECTIVA_TEÓRICA), 7 como definição do termo (DEFINIÇÃO_DO_TERMO), 7 como extinção do cativeiro (EXTINSÃO_DO_CATIVEIRO) e 5 como (CAMPO_DE_PESQUISA_ESTUDO); não sendo utilizado como aspecto político (ASPECTO_POLÍTICO), crítica do termo(CRÍTICA_DO_TERMO), nem perspectiva comparativa (PERSPECTIVA_COMPARATIVA). Dentre as citações, 11 ocorrências estavam na nota de rodapé. Ver gráfico 11. Gráfico interativo disponível em:<https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_analise_central.html> .
 
-Nos identificados como tema incidental, encontramos 116 citações com sentido teórico (PERSPECTIVA_TEÓRICA), 2 como extinção do cativeiro (EXTINÇÃO_DO_CATIVEIRO), 1 (CAMPO_DE_PESQUISA_ESTUDO) e 1 como perspectiva comparativa (PERSPECTIVA_COMPARATIVA); não sendo utilizado como aspecto político (ASPECTO_POLÍTICO), definição do termo (DEFINIÇÃO_DO_TERMO), nem como crítica do termo(CRÍTICA_DO_TERMO). Dentre as citações, 04 ocorrências estavam na nota de rodapé. As demais foram identificadas na bibliografia ou de maneira incidental no corpo, como em títulos de publicações, etc. Ver gráfico 12. Disponível para acesso interativo em: <https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_analise_incidental.html>.
+Nos identificados como tema incidental, encontramos 116 citações com sentido teórico (PERSPECTIVA_TEÓRICA), 2 como extinção do cativeiro (EXTINÇÃO_DO_CATIVEIRO), 1 (CAMPO_DE_PESQUISA_ESTUDO) e 1 como perspectiva comparativa (PERSPECTIVA_COMPARATIVA); não sendo utilizado como aspecto político (ASPECTO_POLÍTICO), definição do termo (DEFINIÇÃO_DO_TERMO), nem como crítica do termo(CRÍTICA_DO_TERMO). Dentre as citações, 04 ocorrências estavam na nota de rodapé. As demais foram identificadas na bibliografia ou de maneira incidental no corpo, como em títulos de publicações, etc. Ver gráfico 12. Disponível para acesso interativo em: <https://ericbrasiln.github.io/pibic_2020-2021/pos-abolicao/graphs/bar_analise_incidental.html> .
 
 ### Breve análise de alguns dados
  
@@ -327,3 +328,100 @@ Sobre a caracterização das publicações, percebemos maior incidência de auto
 Como já mencionado, a variedade das temáticas expressam as diversas possibilidades de caminho para estudar o pós-abolição, que embora esteja em ascensão, ainda deixam um campo vasto de estudo em aberto, como nos alertou Hebe Matos e Ana Lugão Rios há quase duas décadas. Percebemos a preferência dos autores por elementos e metodologias suscitadas pela História Social e pela Micro-História, sobretudo quando analisamos o quantitativo de trajetórias.
 
 Na análise do conjunto dos dados, diante de observarmos a diversidade de temáticas e percebermos que a maior parte delas não está preocupada em indicar uma narrativa única, mas de apontar atores e ações dos diversos “brasis” que por muito tempo esteve fora da historiografia nacional, e da baixa incidência de utilização do termo do pós-abolição com um sentido específico, sendo apresentado na maior parte enquanto uma perspectiva teórica ampla, concluímos que os estudos recentes sobre o pós-abolição tendem a indicar um campo de fala das margens, o que é de extrema importância e representa uma consciência crítica em uma sociedade racializada como o Brasil, mas que ainda carece de um debate metodológico mais aprofundado.
+
+# Anexos
+
+### Gráfico 1
+
+![g1](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/formacao.png)
+
+### Gráfico 2
+![g2](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/instituicoes.png)
+
+### Gráfico 3
+![g3](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tem.png)
+
+### Gráfico 4
+![g4](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_esp_10.png)
+
+### Gráfico 5
+![g5](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_esp_10_central.png)
+
+### Gráfico 6
+![g6](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_esp_10_incidental.png)
+
+### Gráfico 7
+![g7](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tema_10.png)
+
+### Gráfico 8
+![g8](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tema_10_central.png)
+
+### Gráfico 9
+![g9](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_tema_10_incidental.png)
+
+### Gráfico 10
+![g10](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_analise.png)
+
+### Gráfico 11
+![g11](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_analise_central.png)
+
+### Gráfico 12
+![g12](https://github.com/Curso-de-Historia-Unilab-Males/pibic_2020-2021/blob/main/EDITAL_UNILAB/graphs/bar_analise_incidental.png)
+
+
+### Referências Bibliográficas
+ALBUQUERQUE, W. R. DE. O jogo da dissimulação: abolição e cidadania negra no Brasil. São Paulo: Companhia das Letras, 2009. 
+
+ALVES, D. As Humanidades Digitais como uma comunidade de práticas dentro do formalismo académico: dos exemplos internacionais ao caso português. Ler História, n. 69, p. 91–103, 30 dez. 2016. 
+
+ALVES, P. C.; NASCIMENTO, L. F. (EDS.). Novas fronteiras metodológicas nas ciências sociais. Salvador: EDUFBA, 2018. 
+
+BLOCH, M. Apologia da história: Ou o ofício do historiador. 1ª edição ed. Rio de Janeiro: Zahar, 2002. 
+
+BRASIL, E. CARNAVAIS ATLÂNTICOS: CIDADANIA E CULTURA NEGRA NO PÓS- ABOLIÇÃO. RIO DE JANEIRO E PORT-OF-SPAIN,TRINIDAD (1838-1920). p. 72–75, 2011. 
+
+BRASIL, E. Carnavais Atlânticos: Cidadania e Cultura Negra no pós-abolição do Rio de Janeiro, Brasil e Porto de Espanha, Trinidad (1838-1920). Doutorado—Niterói: Universidade Federal Fluminense, 2016.
+
+BRASIL, E.; NASCIMENTO, L. F. HISTÓRIA DIGITAL: REFLEXÕES A PARTIR DA HEMEROTECA DIGITAL BRASILEIRA E DO USO DE CAQDAS NA REELABORAÇÃO DA PESQUISA HISTÓRICA. Estudos Históricos (Rio de Janeiro), v. 33, n. 69, p. 196–219, abr. 2020. 
+
+**BRASIL, Eric; NASCIMENTO, L. F. Por uma história social digital: o uso de CAQDAS na pesquisa e escrita da História. **
+
+CARDOSO, O. P. et al. Comparação de megadados das duas revistas da Anpuh ou Introdução à ciência aberta para historiadores. Revista História Hoje, v. 10, n. 21, p. 134–155, 2021. 
+
+CHALHOUB, S. Visões da liberdade: Uma história das últimas décadas da escravidão na Corte. [s.l.] Editora Companhia das Letras, 2011. 
+
+CRYMBLE, A. Technology and the Historian: Transformations in the Digital Age. Urbana: University of Illinois Press, 2021. 
+
+FALCON, F. J. C. Memória e história: a fundação da Anpuh. SIMPÓSIO NACIONAL DE HISTÓRIA–ANPUH, XXVI, p. 1–18, 2011. 
+
+FORTES, A.; ALVIM, L. G. M. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. Esboços: histórias em contextos globais, v. 27, n. 45, p. 207–227, 19 jun. 2020. 
+
+GOMES, F.; DOMINGUES, P. POLÍTICAS DA RAÇA: Experiências e legados da abolição e da pós-emancipação no Brasil. São Paulo: Selo Negro, 2014. 
+
+GOMES, F. DOS S.; DOMINGUES, P. Experiências da emancipação: biografias, instituições e movimentos sociais no pós-abolição (1890-1980). São Paulo, SP: Selo Negro Edições, 2011. 
+
+JENSEN, H. S. Digital Archival Literacy for (all) Historians. Media History, v. 0, n. 0, p. 1–15, 10 jun. 2020. 
+
+LUCCHESI, A. Digital history e Storiografia digitale : estudo comparado sobre a escrita da história no tempo presente (2001-2011). Mestrado—Rio de Janeiro: UFRJ, 2014.
+
+LUCCHESI, A.; SILVEIRA, P. T. DA; NICODEMO, T. L. Nunca fomos tão úteis. Esboços: histórias em contextos globais, v. 27, n. 45, p. 161–169, 19 jun. 2020. 
+
+Manifesto de Fundação. GT Nacional Emancipações e Pós-Abolição, 4 fev. 2014. Disponível em: <https://emancipacoeseposabolicao.wordpress.com/manifesto-de-fundacao/>. Acesso em: 23 out. 2021
+
+NASCIMENTO, Á. P. Trabalhadores negros e o “paradigma da ausência”: contribuições à História Social do Trabalho no Brasil. Estudos Históricos (Rio de Janeiro), v. 29, n. 59, p. 607–626, dez. 2016. 
+
+NASCIMENTO, L. Combinando webscraping em R e ATLAS.ti na pesquisa em ciências sociais: as possibilidades e desafios da sociologia digital. Disponível em: <https://www.researchgate.net/publication/317343570_Combinando_webscraping_em_R_e_ATLASti_na_pesquisa_em_ciencias_sociais_as_possibilidades_e_desafios_da_sociologia_digital>. Acesso em: 22 set. 2020. 
+
+REIS, J. J.; SILVA, E. Negociação e conflito. Em: Negociação e conflito. 1ª edição ed. São Paulo-SP: Companhia das Letras, 1989. p. 7–31. 
+
+RIOS, A. M.; MATTOS, H. M. O pós-abolição como problema histórico: balanços e perspectivas. Topoi (Rio de Janeiro), v. 5, p. 170–198, 2004. 
+
+ROCHA, F. D. Entre embates e contendas: um balanço historiográfico sobre a cidadania no pós-Abolição. Revista Latino-Americana de História, v. 2, n. 9, p. 50–74, 2013. 
+
+SALGANIK, M. J. Bit by bit: social research in the digital age. Princeton: Princeton University Press, 2018. 
+
+SILVA, F. O. DA. As lutas políticas nos clubes negros: culturas negras, racialização e cidadania na fronteira Brasil-Uruguai no pós-abolição (1870-1960). Doutorado—Porto Alegre: UFRGS, 2017.
+
+SILVA, E. G.; ANDRETTA, P. I. S.; RAMOS, R. C. Novas práticas na gestão de informação bibliográfica: estudo sobre a capacidade de gestores de referências no cotidiano dos estudantes, pesquisadores e bibliotecários New practices in the management of bibliographic information ... Revista ACB: Biblioteconomia em Santa Catarina, v. 16, n. 2, p. 419–445, 2011. 
+
+TELLES, H. V. HISTÓRIA DIGITAL, SOCIOLOGIA DIGITAL E HUMANIDADES DIGITAIS: Algumas questões metodológicas. Revista Observatório, v. 3, n. 5, p. 74–101, 1 ago. 2017. 
