@@ -1,7 +1,5 @@
 # Resumo {.unnumbered}
 
-INCLUIR RESUMO
-
-**Palavras-chave**: História Digital, Pós-Abolição, Anpuh
-
 O presente trabalho busca colaborar tanto para o debate recente sobre o pós-abolição no Brasil, através da análise de como o pós-abolição tem sido tratado nos Simpósios Nacionais de História da ANPUH entre os anos de 2013 e 2019 quanto para a História Digital, com a análise das possibilidades de uso de fontes digitais na historiografia. É fruto do projeto de pesquisa: “Pós-abolição: usos, sentidos e produções acadêmicas 2004-2019”, do qual fui bolsista, sob a orientação do professor Eric Brasil. Está dividida em três capítulos: No primeiro, situamos o debate historiográfico recente sobre o pós-abolição no Brasil e como o campo vem se consolidando. No segundo, discutimos sobre fontes e apresentamos a possibilidades de utilização de uma metodologia híbrida, com discussões próprias da Ciência Computacional tanto quanto da História, o que converge com o campo da História Digital. No terceiro capítulo, apresentamos os dados quantitativos e fazemos uma breve análise qualitativa. Com isso, concluímos que o pós-abolição é um campo vasto, mas que ainda carece de um debate teórico-metodológico mais aprofundado.
+
+**Palavras-chave**: História Digital, Pós-Abolição, Anpuh, Historiografia
