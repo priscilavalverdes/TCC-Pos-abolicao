@@ -17,14 +17,13 @@ book:
     - cap3.qmd
     - conclusao.qmd
     - references.qmd
-  appendices:
-    - graficos.qmd
   sharing: 
     - twitter
     - facebook
   downloads: 
     - pdf
     - epub
+    - docx
   page-footer:
     center: 
       - text: "Copyright 2022, Priscila Valverde Silveira"
@@ -35,6 +34,7 @@ format:
     theme: 
         light: flatly
         dark: darkly
+    lang: pt-br
   pdf:
     documentclass: scrreprt
     colorlinks: true

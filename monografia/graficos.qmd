@@ -11,13 +11,13 @@
 ![g3](imgs/bar_tem.png)
 
 ## Gráfico 4
-![g4](imgs/bar_esp_10.png)
+![g4](imgs/bar_esp_10_novo.png)
 
 ## Gráfico 5
-![g5](imgs/bar_esp_10_central.png)
+![g5](imgs/bar_esp_10_central_novo.png)
 
 ## Gráfico 6
-![g6](imgs/bar_esp_10_incidental.png)
+![g6](imgs/bar_esp_10_incidental_novo.png)
 
 ## Gráfico 7
 ![g7](imgs/bar_tema_10.png)
