@@ -6,40 +6,41 @@ book:
   title: "Entre o Pós-Abolição e a História Digital"
   subtitle: "usos e sentidos do termo pós-abolição nos Simpósios Nacionais de História da ANPUH (2013 - 2019)"
   author: "Priscila Valverde Silveira"
-  date: "19/06/2022"
+  date: "20/06/2022"
   chapters:
     - index.qmd
-    - resumo.qmd
     - agradecimento.qmd
+    - resumo.qmd
     - intro.qmd
     - cap1.qmd
     - cap2.qmd
     - cap3.qmd
     - conclusao.qmd
     - references.qmd
-  appendices:
-    - lists.qmd
-    - imgs.qmd
   sharing: 
     - twitter
     - facebook
   downloads: 
     - pdf
     - epub
+    - docx
   page-footer:
     center: 
       - text: "Copyright 2022, Priscila Valverde Silveira"
         href: "https://github.com/priscilavalverdes/TCC-Pos-abolicao"
-  
-bibliography: references.bib
 
 format:
   html:
     theme: 
         light: flatly
         dark: darkly
+    lang: pt-br
   pdf:
     documentclass: scrreprt
+    colorlinks: true
+    toc-title: Índice
+    indent: true  
+    lang: pt-BR
     include-in-header: 
       text: |
         \usepackage{makeidx}
@@ -50,8 +51,10 @@ format:
   epub:
     documentclass: book
     epub-cover-image: cover.png
-
-
-
-
-
+  docx:
+    toc: true
+    toc-title: Índice
+    number-sections: true
+    highlight-style: github
+    reference-doc: custom-reference-doc.docx
+    lang: pt-BR

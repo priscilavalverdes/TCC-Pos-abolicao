@@ -1,0 +1,38 @@
+# Gráficos
+
+## Gráfico 1
+
+![g1](imgs/formacao.png)
+
+## Gráfico 2
+![g2](imgs/instituicoes.png)
+
+## Gráfico 3
+![g3](imgs/bar_tem.png)
+
+## Gráfico 4
+![g4](imgs/bar_esp_10_novo.png)
+
+## Gráfico 5
+![g5](imgs/bar_esp_10_central_novo.png)
+
+## Gráfico 6
+![g6](imgs/bar_esp_10_incidental_novo.png)
+
+## Gráfico 7
+![g7](imgs/bar_tema_10.png)
+
+## Gráfico 8
+![g8](imgs/bar_tema_10_central.png)
+
+## Gráfico 9
+![g9](imgs/bar_tema_10_incidental.png)
+
+## Gráfico 10
+![g10](imgs/bar_analise.png)
+
+## Gráfico 11
+![g11](imgs/bar_analise_central.png)
+
+## Gráfico 12
+![g12](imgs/bar_analise_incidental.png)
