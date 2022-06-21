@@ -1,18 +1,22 @@
 # Dados gerais {.unnumbered}
 
+![](imgs/unilab.png)
+
 UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA
 
-INSTITUTO DE HUMANIDADES E LETRAS
+INSTITUTO DE HUMANIDADES E LETRAS DO CAMPUS DOS MALÊS
 
 CURSO DE LICENCIATURA EM HISTÓRIA
 
-Trabalho de Conclusão de Curso apresentado como requisito parcial para aprovação no curso de Licenciatura em História da Universidade da Integração Internacional da Lusofonia Afro-Brasileira. Orientador: Dr. Eric Brasil Nepomuceno
+>Trabalho de Conclusão de Curso apresentado como requisito parcial para aprovação no curso de Licenciatura em História da Universidade da Integração Internacional da Lusofonia Afro-Brasileira. 
+
+**Orientador**: Prof. Dr. Eric Brasil Nepomuceno
 
 Aprovado em [DATA]
 
 ## Banca examinadora
 
 - Prof. Dr. Eric Brasil (orientador)
-- Prof. Dra. Maria Cláudia Ferreira
+- Prof. Dra. Maria Cláudia Cardoso Ferreira
 - Prof. Dra. Anita Lucchesi
 

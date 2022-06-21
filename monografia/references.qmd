@@ -1,4 +1,63 @@
 # Referências bibliográficas {.unnumbered}
 
-::: {#refs}
-:::
+ALBUQUERQUE, W. R. DE. O jogo da dissimulação: abolição e cidadania negra no Brasil. São Paulo: Companhia das Letras, 2009. 
+
+ALVES, D. As Humanidades Digitais como uma comunidade de práticas dentro do formalismo académico: dos exemplos internacionais ao caso português. Ler História, n. 69, p. 91–103, 30 dez. 2016. 
+
+ALVES, P. C.; NASCIMENTO, L. F. (EDS.). Novas fronteiras metodológicas nas ciências sociais. Salvador: EDUFBA, 2018. 
+
+BLOCH, M. Apologia da história: Ou o ofício do historiador. 1ª edição ed. Rio de Janeiro: Zahar, 2002. 
+
+BRASIL, E. CARNAVAIS ATLÂNTICOS: CIDADANIA E CULTURA NEGRA NO PÓS- ABOLIÇÃO. RIO DE JANEIRO E PORT-OF-SPAIN,TRINIDAD (1838-1920). p. 72–75, 2011. 
+
+BRASIL, E. Carnavais Atlânticos: Cidadania e Cultura Negra no pós-abolição do Rio de Janeiro, Brasil e Porto de Espanha, Trinidad (1838-1920). Doutorado—Niterói: Universidade Federal Fluminense, 2016.
+
+BRASIL, E.; NASCIMENTO, L. F. HISTÓRIA DIGITAL: REFLEXÕES A PARTIR DA HEMEROTECA DIGITAL BRASILEIRA E DO USO DE CAQDAS NA REELABORAÇÃO DA PESQUISA HISTÓRICA. Estudos Históricos (Rio de Janeiro), v. 33, n. 69, p. 196–219, abr. 2020. 
+
+BRASIL, Eric; ANDRADE, Gabriel; NASCIMENTO, Leonardo F. Script Anais-Anpuh. Disponível em: <http://rgdoi.net/10.13140/RG.2.2.34653.03048>. Acesso em: 18 jun. 2022. DOI: 10.13140/RG.2.2.34653.03048
+
+BRASIL, Eric; NASCIMENTO, Leonardo. Por uma história social digital: o uso de CAQDAS na pesquisa e escrita da História. In: Barros, José D'Assunção (org.) História Digital: a historiografia diante dos recursos e demandas de um novo tempo. Rio de Janeiro: Editora Vozes, 2022.
+
+CARDOSO, O. P. et al. Comparação de megadados das duas revistas da Anpuh ou Introdução à ciência aberta para historiadores. Revista História Hoje, v. 10, n. 21, p. 134–155, 2021. 
+
+CHALHOUB, S. Visões da liberdade: Uma história das últimas décadas da escravidão na Corte. [s.l.] Editora Companhia das Letras, 2011. 
+
+CRYMBLE, A. Technology and the Historian: Transformations in the Digital Age. Urbana: University of Illinois Press, 2021. 
+
+FALCON, F. J. C. Memória e história: a fundação da Anpuh. SIMPÓSIO NACIONAL DE HISTÓRIA–ANPUH, XXVI, p. 1–18, 2011. 
+
+FORTES, A.; ALVIM, L. G. M. Evidências, códigos e classificações: o ofício do historiador e o mundo digital. Esboços: histórias em contextos globais, v. 27, n. 45, p. 207–227, 19 jun. 2020. 
+
+GOMES, F.; DOMINGUES, P. POLÍTICAS DA RAÇA: Experiências e legados da abolição e da pós-emancipação no Brasil. São Paulo: Selo Negro, 2014. 
+
+GOMES, F. DOS S.; DOMINGUES, P. Experiências da emancipação: biografias, instituições e movimentos sociais no pós-abolição (1890-1980). São Paulo, SP: Selo Negro Edições, 2011. 
+
+JENSEN, H. S. Digital Archival Literacy for (all) Historians. Media History, v. 0, n. 0, p. 1–15, 10 jun. 2020. 
+
+KARSDORP, Folgert; KESTEMONT, Mike; RIDDELL, Allen. Humanities data analysis: case studies with Python. Princeton: Princeton University Press, 2021.
+
+LUCCHESI, A. Digital history e Storiografia digitale : estudo comparado sobre a escrita da história no tempo presente (2001-2011). Mestrado—Rio de Janeiro: UFRJ, 2014.
+
+LUCCHESI, A.; SILVEIRA, P. T. DA; NICODEMO, T. L. Nunca fomos tão úteis. Esboços: histórias em contextos globais, v. 27, n. 45, p. 161–169, 19 jun. 2020. 
+
+Manifesto de Fundação. GT Nacional Emancipações e Pós-Abolição, 4 fev. 2014. Disponível em: <https://emancipacoeseposabolicao.wordpress.com/manifesto-de-fundacao/>. Acesso em: 23 out. 2021
+
+NASCIMENTO, Á. P. Trabalhadores negros e o “paradigma da ausência”: contribuições à História Social do Trabalho no Brasil. Estudos Históricos (Rio de Janeiro), v. 29, n. 59, p. 607–626, dez. 2016. 
+
+NASCIMENTO, L. Combinando webscraping em R e ATLAS.ti na pesquisa em ciências sociais: as possibilidades e desafios da sociologia digital.
+
+REIS, J. J.; SILVA, E. Negociação e conflito. Em: Negociação e conflito. 1ª edição ed. São Paulo-SP: Companhia das Letras, 1989. p. 7–31. 
+
+RIOS, A. M.; MATTOS, H. M. O pós-abolição como problema histórico: balanços e perspectivas. Topoi (Rio de Janeiro), v. 5, p. 170–198, 2004. 
+
+ROCHA, F. D. Entre embates e contendas: um balanço historiográfico sobre a cidadania no pós-Abolição. Revista Latino-Americana de História, v. 2, n. 9, p. 50–74, 2013. 
+
+ROMEIN, C. Annemieke; KEMMAN, Max; BIRKHOLZ, Julie M.; et al. State of the Field: Digital History. History, v. 105, n. 365, p. 291–312, 2020.
+
+SALGANIK, M. J. Bit by bit: social research in the digital age. Princeton: Princeton University Press, 2018. 
+
+SILVA, F. O. DA. As lutas políticas nos clubes negros: culturas negras, racialização e cidadania na fronteira Brasil-Uruguai no pós-abolição (1870-1960). Doutorado—Porto Alegre: UFRGS, 2017.
+
+SILVA, E. G.; ANDRETTA, P. I. S.; RAMOS, R. C. Novas práticas na gestão de informação bibliográfica: estudo sobre a capacidade de gestores de referências no cotidiano dos estudantes, pesquisadores e bibliotecários New practices in the management of bibliographic information ... Revista ACB: Biblioteconomia em Santa Catarina, v. 16, n. 2, p. 419–445, 2011. 
+
+TELLES, H. V. HISTÓRIA DIGITAL, SOCIOLOGIA DIGITAL E HUMANIDADES DIGITAIS: Algumas questões metodológicas. Revista Observatório, v. 3, n. 5, p. 74–101, 1 ago. 2017. 
