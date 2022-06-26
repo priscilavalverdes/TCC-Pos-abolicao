@@ -128,7 +128,7 @@ Na árvore, é possível criar diferentes famílias de códigos. As famílias te
 
 - **ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL_CORPO**: Este código foi criado apenas para identificar quando o termo for utilizado incidentalmente em citações de títulos ou situações afins ao longo do corpo do texto, em oposição ao código que identifica a citação no rodapé ou na bibliografia.	
   
-- **ANÁLISE_PÓS-ABOLIÇÃO::NOTA_RODAPÉ**: quando o termo aparece na nota de rodapé através de uma atrelado aos sentidos de análise. *[não entendi essa frase]*
+- **ANÁLISE_PÓS-ABOLIÇÃO::NOTA_RODAPÉ**: quando o termo aparece na nota de rodapé através de uma citação atrelada aos sentidos de análise. 
   
 - **ANÁLISE_PÓS-ABOLIÇÃO::TEMA_INCIDENTAL_RODAPE_BIBLIOGRAFIA**: Este código foi criado para identificar quando o termo for citado na bibliografia ou notas de rodapés sem estar atrelado a nenhum sentido de análise 
 
